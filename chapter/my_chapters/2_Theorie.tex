@@ -1,0 +1,45 @@
+% Theorie Einführung
+\section{Theoretischer Hintergrund}
+\label{sec:theorie}
+    \subsection{Definition Künstliche Intelligenz}
+    \label{subsec:definiton_kuenstliche_intelligenz}
+    Der Interesse an dem Thema Künstliche Intelligenz sowie die Einsatzmöglichkeiten steigen stetig an. Künstliche Intelligenz ist ein sehr großes Thema. Für eine grobe Wiedergabe worum es in diesem Thema geht liefert Wikipedia einen guten Einstieg: 
+    \textit{\enquote{Künstliche Intelligenz [...] ist ein Teilgebiet der Informatik, welches sich mit der Automatisierung intelligenten Verhaltens und dem maschinellen Lernen befasst.}} [siehe \ref{wiki:KuenstlicheIntelligenz}]\\
+
+    Mit dieser Aussage kann man Künstliche Intelligenz im groben Beschreiben. Etwas genauer beschreibt es Klaus Mainzer in seinem Buch \enquote{Künstliche Intelligenz - Wann übernehme die Maschinen?} [siehe \ref{book:KI_WannUebernehmenDieMaschinen}]. In diesem geht er auf die Definition der Intelligenz von Systemen ein. Laut ihm heißt ein System intelligent \textit{\enquote{wenn es selbstständig und effizient Probleme lösen kann. Der Grad der Intelligenz hängt vom Grad der Selbstständigkeit, dem Grad der Komplexität des Problems und dem Grad der Effizienz des Problemlösungsverfahrens ab}} [siehe S.3 in \ref{book:KI_WannUebernehmenDieMaschinen}].\\
+    
+    Um es einmal auf den Punkt zu bringen, bezeichnet \enquote{Künstliche Intelligenz} ein System welches selbstständig lernen und effizient Probleme lösen kann und zudem noch lernfähig ist.
+
+    \subsection{Wie funktioniert eine Künstliche Intelligenz?}
+    \label{subsec:wie_funktioniert_eine_kuenstliche_intelligenz}
+    Künstliche Intelligenzen funktionieren je nach Abwandlung etwas verschieden aber ähneln sich dennoch in ihrem Aufbau. In dieser Arbeit werden die sogenannten Neuronalen Netzwerke, welche in den meisten Systemen Anwendung finden, behandelt. 
+
+    \begin{figure}[ht]
+        \includegraphics[width=\textwidth, scale=0.8]{resources/images/img/Neural Networks/neural-network-example.png}
+        \caption{Beispiel eines Neuronalen Netzes [Quelle: \ref{subsubsec:Beispiel_eines_Neuronalen_Netzes}]}
+        \label{fig:Beispiel_Neuronales_Netz}
+    \end{figure}
+
+    Diese sind nach der Theorie wie unser Gehirn funktioniert aufgebaut. Hierbei arbeiten viele Neurone zusammen um Daten und Befehle zu verarbeiten [vgl. \ref{subsubsec:dasgehirn:Zellen-Arbeiter_Des_Gehrins}]. Die Neuronalen Netze besitzen 3 verschiedene Layer welche zur Datenverarbeitung genutzt werden können.\\
+    
+    Diese Layer werden \enquote{Input Layer}, \enquote{Hidden Layer} und \enquote{Output Layer} genannt. Innerhalb dieser gibt es sogenannte Neuronen, welche mit jeweils jedem Neuron der vorherigen und der nächsten Schicht verbunden ist. Jedes dieser Neuronen hat ein Gewicht welches das Ergebnis im \enquote{Output Layer} beeinflussen kann. Wie viele Neuron-Verbindungen es gibt hängt von der Anzahl der Neuronen sowie der \enquote{Hidden Layers} ab. Im Beispiel [Abbildung \ref{fig:Beispiel_Neuronales_Netz}] ist diese Rechnung noch sehr simpel.
+    
+    \begin{align}
+        3 \cdot 4 = 12 + (4 \cdot 4) = 28 + (4 \cdot 1) = 32
+    \end{align}
+    
+    Das Beispiel hat also insgesamt 32 Neuronen Verbindungen. Dies ist noch ein sehr kleines Netz, welches für Anschauungszwecke allerdings völlig ausreicht.\\
+    
+        \subsubsection{Trainieren eines Neuronalen Netzes}
+        Mit einem gerade erstellten Neuronalen Netz können noch keine Daten sinnvoll verarbeitet werden. Zunächst muss dieses auf das Anwendungsgebiet trainiert werden.\\
+        In diesem Training bekommen die Neuronen zunächst ein zufälliges Gewicht welches meist zwischen -1 und 1 liegt. Als nächstes werden Daten in das Neuronale Netz gegeben. Natürlich wird die Ausgabe größtenteils falsch sein und nur durch Glück einen richtigen Ansatz haben. Nach dem der erste Datensatz durchgelaufen ist, passt das Netz seine Gewichte automatisch an. Hierbei erkennt es welche Neuronen den größten Einfluss auf das aktuelle Ergebnis hatten und berechnet dabei die Abweichung vom erwarteten Ergebnis die diese verursachten. Im Anschluss werden diese fehlerhaften Gewichte ein kleines bisschen angepasst sodass die Ergebnisse am \enquote{Output Layer} ein wenig näher am erwarteten Ergebnis sind als vorher [vgl. \ref{subsubsec:Wie_lernen_neuronale_netze}]. Dieser Vorgang wird nun mit einem großen Datensatz mehrere hunderte oder tausend mal wiederholt. Hierbei gilt je größer der Datensatz desto genauer und \enquote{intelligenter [vgl. \ref{subsec:definiton_kuenstliche_intelligenz}]} das Neuronale Netz.
+    
+    \subsection{Erste Konzepte Künstlicher Intelligenz}
+    \label{subsec:Theorie:Erste_Konzepte_von_KI}
+        Wie in der Einleitung schon erwähnt, begann die Entwicklung von Künstlicher Intelligenz schon vor mehreren Jahrzehnten. Am Anfang gab es die Bezeichung \enquote{Künstliche Intelligenz} noch nicht. Dennoch schafften es die beiden Wissenschaftler Herbert Alexander Simon und Allen Newell ein Lernfähiges Computersystem zu erschaffen, welches einen menschlich-orientierten Lösungsansatz verwendete [Bezug zu \ref{sec:einleitung}]. Dieses System hieß \enquote{Logic Theorist}
+        
+        \subsubsection{Logic Theorist - Was konnte es?}
+        \label{subsubsec:Logic_Theorist:Was_konnte_es}
+            Der Logic Theorist sollte dazu dienen Mathematische Behauptungen zu beweisen. Von dem zweiten Kapitel der \enquote{Prinzipien der Mathematik}, ein Buch Trilogie welche Grundlagen der Mathematik zusammenfasst [siehe \ref{book:prinzipa_of_mathmatics}], konnte das Programm von den ersten 52 Theorien insgesamt 38 beweisen. Einige dieser Lösungen waren laut Quellen sogar \enquote{schöner} gelöst als die handschriftliche Lösung der Autoren Bertrand Russel und Alfred North Whiteheard
+
+    \subsection{Das System der Gesichtserkennung}

@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+          {
+            "label": "Run lualatex",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "command": "python setup.py"
+        },
+        {
+            "label": "Run bibtex",
+            "type": "shell",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "command": "bibtex",
+            "args": [
+                "-terse",
+                "*.aux"
+            ]
+        }      
+    ]
+   }

@@ -1,0 +1,122 @@
+% Dokumenteinstellungen und Anpassungen
+\input{resources/settings/settings}
+\input{resources/styles/adjustments}
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{eso-pic}
+\usepackage{caption}
+\newcommand\BackgroundPic{%
+\put(0,0){%
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+\includegraphics[width=\paperwidth,height=\paperheight,%
+keepaspectratio]{resources/images/deckblatt.jpg}%
+\vfill
+}}}
+
+
+\include{titles/graduation}
+% Variablen für das Deckblatt
+\gradeType{Abitur 2021}
+\germanTitle{Face Recognition mit Hilfe von Künstlicher Intelligenz}
+\englishTitle{}
+\authorFirstname{Kevin}
+\authorLastname{Pagenkämper}
+\authorBirthplace{Nordhorn}
+\discipline{Technik und Ethik}
+\courseOfStudies{Informatik}
+\matrikelnr{112}
+\submitDate{28.02.2020}
+\firstExaminer{Andre Nixdorf}
+\secondExaminer{Henrike Schnöing}
+
+
+\include{titles/eidesstatt}
+\place{Nordhorn}
+
+
+\lstset{literate=%
+  {Ö}{{\"O}}1
+  {Ä}{{\"A}}1
+  {Ü}{{\"U}}1
+  {ß}{{\ss}}1
+  {ü}{{\"u}}1
+  {ä}{{\"a}}1
+  {ö}{{\"o}}1
+}
+
+% Javascript als Sprache für die lstings
+\lstdefinelanguage{JavaScript}{
+  keywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break, that, globals, let, const},
+  keywordstyle=\color{blue}\bfseries,
+  ndkeywords={class, export, boolean, throw, implements, import, this},
+  ndkeywordstyle=\color{darkgray}\bfseries,
+  identifierstyle=\color{black},
+  sensitive=false,
+  comment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  commentstyle=\color{gray}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  morestring=[b]',
+  morestring=[b]"
+}
+\lstset{
+    language=JavaScript,
+    numbers=none,
+    frame=leftline,
+    tabsize=2,
+    rulesepcolor=\color{gray},
+    rulecolor=\color{black},
+    captionpos=b,
+    breaklines=true,
+    breakatwhitespace=false,
+}
+
+% Neuer Befehl um Subsubsubkapitel schreiben zu können
+\newcommand{\subsubsubsection}[1]{\paragraph{#1}\mbox{}\\}
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+\usepackage{fontspec}
+\setmainfont{Arial}
+
+\begin{document}
+
+% Entfernen der Seitenzahlen und BackroundPic als Hintergrund nutzen
+\pagenumbering{gobble}
+\AddToShipoutPicture{\BackgroundPic}
+
+% Titelblatt erzeugen
+\maketitle
+\newpage
+
+% Eidesstattliche Erklärung erzeugen
+\makeeidesstatt
+\thispagestyle{empty}
+
+% Abstract und Inhaltsverzeichnisse einfügen (Numerierung römisch ab Inhaltsverzeichnis)
+\input{chapter/0_Abstract.tex}
+\ClearShipoutPicture
+\thispagestyle{empty}
+\newpage
+\pagenumbering{Roman}
+\tableofcontents
+%\newpage
+%\listoffigures
+\newpage
+
+% Kapitel einfügen
+\pagenumbering{arabic}
+\input{chapter/my_chapters/1_Einleitung.tex}
+\newpage
+\input{chapter/my_chapters/Anhang.tex}
+
+
+% Bibliografie im .bib Format einfügen
+\bibliography{bachelorarbeit}
+
+\end{document}
