@@ -3,7 +3,7 @@
 \label{sec:theorie}
     \subsection{Definition Künstliche Intelligenz}
     \label{subsec:definiton_kuenstliche_intelligenz}
-    Der Interesse an dem Thema Künstliche Intelligenz sowie die Einsatzmöglichkeiten steigen stetig an. Künstliche Intelligenz ist ein sehr großes Thema. Für eine grobe Wiedergabe worum es in diesem Thema geht liefert Wikipedia einen guten Einstieg: 
+    Das Interesse an dem Thema Künstliche Intelligenz sowie die Einsatzmöglichkeiten steigen stetig an. Künstliche Intelligenz ist ein sehr großes Thema. Für eine grobe Wiedergabe worum es in diesem Thema geht liefert Wikipedia einen guten Einstieg: 
     \textit{\enquote{Künstliche Intelligenz [...] ist ein Teilgebiet der Informatik, welches sich mit der Automatisierung intelligenten Verhaltens und dem maschinellen Lernen befasst.}} [siehe \ref{wiki:KuenstlicheIntelligenz}]\\
 
     Mit dieser Aussage kann man Künstliche Intelligenz im groben Beschreiben. Etwas genauer beschreibt es Klaus Mainzer in seinem Buch \enquote{Künstliche Intelligenz - Wann übernehme die Maschinen?} [siehe \ref{book:KI_WannUebernehmenDieMaschinen}]. In diesem geht er auf die Definition der Intelligenz von Systemen ein. Laut ihm heißt ein System intelligent \textit{\enquote{wenn es selbstständig und effizient Probleme lösen kann. Der Grad der Intelligenz hängt vom Grad der Selbstständigkeit, dem Grad der Komplexität des Problems und dem Grad der Effizienz des Problemlösungsverfahrens ab}} [siehe S.3 in \ref{book:KI_WannUebernehmenDieMaschinen}].\\
@@ -65,7 +65,7 @@
                         \draw[fill=myblue] (\x cm,0cm) rectangle (1cm+\x cm,\y cm) 
                         node at (0.5cm + \x cm,\y cm + 0.3cm) {\y};
                         \node[rotate=45, left] at (0.6 cm +\x cm,-0.1cm) {\tag};
-                    }
+                    };
 
                 
                 \end{tikzpicture}
@@ -136,6 +136,20 @@
 
         \subsubsection{Elastic bunch Graph Matching}
         \label{subsubsec:Elastic_bunch_graph_Matching}
-            
+
+            Das \enquote{Elastic bunch Graph Matching}, kurz EBGM, ist ein biologisch inspirierter Algorithmus für Objekt-Erkennung im Bereich \enquote{Computer Vision}. Dieser nutzt \enquote{Gabor wavelets}, welche in [\ref{scholarpedia:ebgm} \& \ref{Gabor_wavelets}] genauer erläutert werden, denen eine gute Visualisierung von Menschlichen Hirnaktivitäten nachgesagt wird.
+            \begin{center}
+                \begin{figure}[ht]
+                    \centering
+                    \includegraphics[scale=0.8]{resources/images/img/Face recognition/Elastic Bunch Graph Matching - Figures.png}
+                    \caption{Aufbau eines Graphen im EBGM-Algorithmus [Quelle: \ref{scholarpedia:ebgm} / \ref{image:datapoints_of_a_EGBM_algoryhtm}]}
+                    \label{fig:Datenpunkte_eines_EGBM-Algorithms}
+                \end{figure}
+            \end{center}
+            Der Algorithmus selbst ist eine Version der \enquote{Dynamic Link Machine}, welche eine Modell der Objekt-Erkennung in unserem Gehirn ist [vgl. \ref{scholarpedia:ebgm}]. Eine ausführliche Beschreibung der Dynamic Link Machine ist in [\ref{subsec:dynamic_link_machine}] zu finden.\\
+            Beim EBGM werden Graphen auf ein Bild gelegt und Markante Punkte durch sogenannte Jets gekennzeichnet [siehe Abbildung \ref{fig:Datenpunkte_eines_EGBM-Algorithms}]. Diese Punkte sind in allen Gesichtern mit einer kleinen Tolleranz gleich. Die Punkte aller verarbeiteten Gesichter werden in einem sogenannten Bunch zusammengefasst.
+
+            \subsubsubsection{Jets}
+                
 
             
