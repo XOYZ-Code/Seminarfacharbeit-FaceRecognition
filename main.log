@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.11.2 (MiKTeX 2.9.7250 64-bit)  (format=lualatex 2020.1.23)  28 FEB 2020 09:49
+This is LuaTeX, Version 1.11.2 (MiKTeX 2.9.7250 64-bit)  (format=lualatex 2020.1.23)  2 MAR 2020 02:07
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -59,7 +59,7 @@ Lua module: luaotfload-tounicode 2019-11-10 3.11 luaotfload submodule / tounicod
 e
 Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 1.327 seconds
+luaotfload | main : initialization completed in 1.313 seconds
 (./resources/settings/settings.tex
 ("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls"
 Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
@@ -1615,6 +1615,135 @@ Package: subcaption 2020/01/03 v1.3b Sub-captions (AR)
 y"
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 )
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/latex/pgfplots/pgfplots.
+sty"
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplot
+s.revision.tex")
+Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
+
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplot
+s.code.tex"
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplot
+score.code.tex"
+Package pgfplots info on input line 124: Initializing with LUA version Lua 5.3
+\pgfplots@luabackend@table=\catcodetable7
+\t@pgfplots@toka=\toks57
+\t@pgfplots@tokb=\toks58
+\t@pgfplots@tokc=\toks59
+\pgfplots@tmpa=\dimen307
+\c@pgfplots@coordindex=\count371
+\c@pgfplots@scanlineindex=\count372
+
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/sys/pgf
+plotssysgeneric.code.tex"))
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/libs/pg
+fplotslibrary.code.tex")
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/oldpgfc
+ompatib/pgfplotsoldpgfsupp_loader.code.tex"
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/libraries/pg
+flibraryfpu.code.tex")
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/libraries/lu
+amath/pgflibraryluamath.code.tex")
+Package pgfplots info on input line 275: luamath library shipped with pgf 3.1.5b
+ is up-to-date
+)
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/util/pg
+fplotsutil.code.tex"
+Package pgfplots info on input line 82: Found new luatex: initializing lua comma
+nds instead of write18 (shell-escape)
+
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/liststr
+ucture/pgfplotsliststructure.code.tex")
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/liststr
+ucture/pgfplotsliststructureext.code.tex")
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/liststr
+ucture/pgfplotsarray.code.tex"
+\c@pgfplotsarray@tmp=\count373
+)
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/liststr
+ucture/pgfplotsmatrix.code.tex")
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/numtabl
+e/pgfplotstableshared.code.tex"
+\c@pgfplotstable@counta=\count374
+\t@pgfplotstable@a=\toks60
+)
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/liststr
+ucture/pgfplotsdeque.code.tex")
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/util/pg
+fplotsbinary.code.tex"
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/util/pg
+fplotsbinary.data.code.tex"))
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/util/pg
+fplotsutil.verb.code.tex")
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/libs/pg
+flibrarypgfplots.surfshading.code.tex"
+\c@pgfplotslibrarysurf@no=\count375
+
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/sys/pgf
+librarypgfplots.surfshading.pgfsys-luatex.def")))
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/util/pg
+fplotscolormap.code.tex"
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/util/pg
+fplotscolor.code.tex"))
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplot
+sstackedplots.code.tex")
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplot
+splothandlers.code.tex"
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplot
+smeshplothandler.code.tex"
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplot
+smeshplotimage.code.tex")))
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplot
+s.scaling.code.tex")
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplot
+scoordprocessing.code.tex")
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplot
+s.errorbars.code.tex")
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplot
+s.markers.code.tex")
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplot
+sticks.code.tex")
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgfplots/pgfplot
+s.paths.code.tex")
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/frontendlaye
+r/tikz/libraries/tikzlibrarydecorations.code.tex"
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/modules/pgfm
+oduledecorations.code.tex"
+\pgfdecoratedcompleteddistance=\dimen308
+\pgfdecoratedremainingdistance=\dimen309
+\pgfdecoratedinputsegmentcompleteddistance=\dimen310
+\pgfdecoratedinputsegmentremainingdistance=\dimen311
+\pgf@decorate@distancetomove=\dimen312
+\pgf@decorate@repeatstate=\count376
+\pgfdecorationsegmentamplitude=\dimen313
+\pgfdecorationsegmentlength=\dimen314
+)
+\tikz@lib@dec@box=\box98
+)
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/frontendlaye
+r/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex"
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/libraries/de
+corations/pgflibrarydecorations.pathmorphing.code.tex"))
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/frontendlaye
+r/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex"
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/libraries/de
+corations/pgflibrarydecorations.pathreplacing.code.tex"))
+\pgfplots@numplots=\count377
+\pgfplots@xmin@reg=\dimen315
+\pgfplots@xmax@reg=\dimen316
+\pgfplots@ymin@reg=\dimen317
+\pgfplots@ymax@reg=\dimen318
+\pgfplots@zmin@reg=\dimen319
+\pgfplots@zmax@reg=\dimen320
+)
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/frontendlaye
+r/tikz/libraries/tikzlibraryplotmarks.code.tex"
+File: tikzlibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/libraries/pg
+flibraryplotmarks.code.tex"
+File: pgflibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
 \@input{titles/graduation.aux}
 
 \openout2 = titles/graduation.aux
@@ -1631,20 +1760,20 @@ Lua module: fontspec 2020/01/09 2.7e Font selection for XeLaTeX and LuaLaTeX
 luatex.sty"
 Package: fontspec-luatex 2020/01/09 v2.7e Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count371
-\l__fontspec_language_int=\count372
-\l__fontspec_strnum_int=\count373
-\l__fontspec_tmp_int=\count374
-\l__fontspec_tmpa_int=\count375
-\l__fontspec_tmpb_int=\count376
-\l__fontspec_tmpc_int=\count377
-\l__fontspec_em_int=\count378
-\l__fontspec_emdef_int=\count379
-\l__fontspec_strong_int=\count380
-\l__fontspec_strongdef_int=\count381
-\l__fontspec_tmpa_dim=\dimen307
-\l__fontspec_tmpb_dim=\dimen308
-\l__fontspec_tmpc_dim=\dimen309
+\l__fontspec_script_int=\count378
+\l__fontspec_language_int=\count379
+\l__fontspec_strnum_int=\count380
+\l__fontspec_tmp_int=\count381
+\l__fontspec_tmpa_int=\count382
+\l__fontspec_tmpb_int=\count383
+\l__fontspec_tmpc_int=\count384
+\l__fontspec_em_int=\count385
+\l__fontspec_emdef_int=\count386
+\l__fontspec_strong_int=\count387
+\l__fontspec_strongdef_int=\count388
+\l__fontspec_tmpa_dim=\dimen321
+\l__fontspec_tmpb_dim=\dimen322
+\l__fontspec_tmpc_dim=\dimen323
 
 ("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/fontenc.sty"
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
@@ -1705,24 +1834,24 @@ endperiod].
 (./main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1772,15 +1901,15 @@ Package caption Info: supertabular package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 88.
-LaTeX Info: Redefining \microtypecontext on input line 88.
+(scrlayer)             \begin{document} on input line 92.
+LaTeX Info: Redefining \microtypecontext on input line 92.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 10, shrink: 10, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 88.
+LaTeX Info: Redefining \showhyphens on input line 92.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
@@ -1788,23 +1917,23 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Arial' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c@lstlisting=\count382
-Package scrhack Info: undefining \float@addtolists on input line 88.
+\c@lstlisting=\count389
+Package scrhack Info: undefining \float@addtolists on input line 92.
 
 ("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/mkii/supp-p
 df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count383
-\scratchdimen=\dimen310
-\scratchbox=\box98
-\nofMPsegments=\count384
-\nofMParguments=\count385
-\everyMPshowfont=\toks57
-\MPscratchCnt=\count386
-\MPscratchDim=\dimen311
-\MPnumerator=\count387
-\makeMPintoPDFobject=\count388
-\everyMPtoPDFconversion=\toks58
+\scratchcounter=\count390
+\scratchdimen=\dimen324
+\scratchbox=\box99
+\nofMPsegments=\count391
+\nofMParguments=\count392
+\everyMPshowfont=\toks61
+\MPscratchCnt=\count393
+\MPscratchDim=\dimen325
+\MPnumerator=\count394
+\makeMPintoPDFobject=\count395
+\everyMPtoPDFconversion=\toks62
 )
 ("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/latex/epstopdf-pkg/epsto
 pdf-base.sty"
@@ -1812,8 +1941,8 @@ Package: epstopdf-base 2019-12-09 v2.10 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 5.
 ) ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box99
-Package hyperref Info: Link coloring OFF on input line 88.
+\AtBeginShipoutBox=\box100
+Package hyperref Info: Link coloring OFF on input line 92.
 
 ("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/nameref.s
 ty"
@@ -1827,15 +1956,22 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count389
+\c@section@level=\count396
 )
-LaTeX Info: Redefining \ref on input line 88.
-LaTeX Info: Redefining \pageref on input line 88.
-LaTeX Info: Redefining \nameref on input line 88.
+LaTeX Info: Redefining \ref on input line 92.
+LaTeX Info: Redefining \pageref on input line 92.
+LaTeX Info: Redefining \nameref on input line 92.
  (./main.out) (./main.out)
 \@outlinefile=\write4
 
 \openout4 = main.out
+
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
+ck labels; missing features). Consider writing \pgfplotsset{compat=1.16} into yo
+ur preamble.
+ on input line 92.
+
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: luatex
 * paper: a4paper
@@ -1869,49 +2005,49 @@ LaTeX Info: Redefining \nameref on input line 88.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (8.53589pt too wide) in paragraph at lines 95--95
+Overfull \hbox (8.53589pt too wide) in paragraph at lines 99--99
 [] 
  []
 
 
-Overfull \hbox (8.53589pt too wide) in paragraph at lines 95--95
+Overfull \hbox (8.53589pt too wide) in paragraph at lines 99--99
 [] 
  []
 
 
-Overfull \hbox (8.53589pt too wide) in paragraph at lines 95--95
+Overfull \hbox (8.53589pt too wide) in paragraph at lines 99--99
 [] 
  []
 
 
-Overfull \hbox (8.53589pt too wide) in paragraph at lines 95--95
+Overfull \hbox (8.53589pt too wide) in paragraph at lines 99--99
 [] 
  []
 
 
-Overfull \hbox (8.53589pt too wide) in paragraph at lines 95--95
+Overfull \hbox (8.53589pt too wide) in paragraph at lines 99--99
 [] 
  []
 
 
-Overfull \hbox (8.53589pt too wide) in paragraph at lines 95--95
+Overfull \hbox (8.53589pt too wide) in paragraph at lines 99--99
 [] 
  []
 
 
-Overfull \hbox (8.53589pt too wide) in paragraph at lines 95--95
+Overfull \hbox (8.53589pt too wide) in paragraph at lines 99--99
 [] 
  []
 
 
-Overfull \hbox (8.53589pt too wide) in paragraph at lines 95--95
+Overfull \hbox (8.53589pt too wide) in paragraph at lines 99--99
 [] 
  []
 
-<resources/images/deckblatt.jpg, id=122, 1243.64626pt x 1760.5775pt>
+<resources/images/deckblatt.jpg, id=150, 1243.64626pt x 1760.5775pt>
 File: resources/images/deckblatt.jpg Graphic file (type jpg)
 <use resources/images/deckblatt.jpg>
-Package luatex.def Info: resources/images/deckblatt.jpg  used on input line 95.
+Package luatex.def Info: resources/images/deckblatt.jpg  used on input line 99.
 (luatex.def)             Requested size: 596.92445pt x 845.04074pt.
 [1
 
@@ -1955,12 +2091,12 @@ mages/deckblatt.jpg>]
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (8.53589pt too wide) in paragraph at lines 99--99
+Overfull \hbox (8.53589pt too wide) in paragraph at lines 103--103
 [] 
  []
 
 
-Overfull \hbox (8.53589pt too wide) in paragraph at lines 99--99
+Overfull \hbox (8.53589pt too wide) in paragraph at lines 103--103
 [] 
  []
 
@@ -1968,7 +2104,8 @@ Overfull \hbox (8.53589pt too wide) in paragraph at lines 99--99
 warning  (pdf backend): ignoring duplicate destination with the name 'page.'
 File: resources/images/deckblatt.jpg Graphic file (type jpg)
 <use resources/images/deckblatt.jpg>
-Package luatex.def Info: resources/images/deckblatt.jpg  used on input line 99.
+Package luatex.def Info: resources/images/deckblatt.jpg  used on input line 103.
+
 (luatex.def)             Requested size: 596.92445pt x 845.04074pt.
 [1
 
@@ -2022,7 +2159,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \openout5 = main.toc
 LaTeX Font Info:    Font shape `TU/Arial(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/Arial(0)/m/it' tried instead on input line 11
-1.
+5.
  [2] (./chapter/my_chapters/1_Einleitung.tex) [1]
 (./chapter/my_chapters/2_Theorie.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--8
@@ -2034,31 +2171,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-<resources/images/img/Neural Networks/neural-network-example.png, id=184, 1496.5
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+
+ []
+
+[2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+<resources/images/img/Neural Networks/neural-network-example.png, id=234, 1496.5
 9125pt x 722.7pt>
 File: resources/images/img/Neural Networks/neural-network-example.png Graphic fi
 le (type png)
 <use resources/images/img/Neural Networks/neural-network-example.png>
 Package luatex.def Info: resources/images/img/Neural Networks/neural-network-exa
-mple.png  used on input line 18.
+mple.png  used on input line 80.
 (luatex.def)             Requested size: 1197.27466pt x 578.16078pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-
- []
-
-[3<./resources/images/img/Neural Networks/neural-network-example.png>])
-[4] (./chapter/my_chapters/3_Praxis.tex) [5] (./chapter/my_chapters/Anhang.tex
+[4] [5<./resources/images/img/Neural Networks/neural-network-example.png>])
+[6] (./chapter/my_chapters/3_Praxis.tex) [7] (./chapter/my_chapters/4_Ethik.tex
+) [8] (./chapter/my_chapters/Anhang.tex
 Underfull \hbox (badness 10000) in paragraph at lines 43--48
 
  []
 
-[6]
+[9]
 Overfull \hbox (23.69391pt too wide) in paragraph at lines 66--68
 \TU/Arial(0)/m/n/12 URL: htt-ps://www.das-ge-hirn.info/grundlagen/kommunikation
 -der-zellen/zellen-spezialisierte-
@@ -2066,36 +2209,36 @@ Overfull \hbox (23.69391pt too wide) in paragraph at lines 66--68
 
 )
 No file main.bbl.
-[7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
+[10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 35D0C745EDF3A681FD2D46ED46D085EB;6647.
+(rerunfilecheck)             Checksum: 9F1DB51EF658152AAE2716EBDFFF8777;8159.
 )
 
 Here is how much of LuaTeX's memory you used:
- 48661 strings out of 493863
- 125171,1373583 words of node,token memory allocated
+ 58941 strings out of 493863
+ 125171,1648299 words of node,token memory allocated
  643 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 14 attribute, 77 glue_spec
 , 9 attribute_list, 2 write nodes
-   avail lists: 1:1,2:923,3:166,4:53,5:142,6:61,7:3093,8:35,9:252,10:24,11:334,1
-2:1
- 51708 multiletter control sequences out of 65536+200000
+   avail lists: 1:2,2:2243,3:386,4:53,5:138,6:62,7:3828,8:31,9:382,10:27,11:420,
+12:1
+ 61730 multiletter control sequences out of 65536+200000
  63 fonts using 23958471 bytes
- 67i,20n,84p,1899b,2144s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,19n,103p,1932b,2144s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.e
 nc}{C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.en
 c}<C:/WINDOWS/Fonts/ariali.ttf><C:/WINDOWS/Fonts/arial.ttf><C:/WINDOWS/Fonts/ari
 albd.ttf><C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm
 /lmr12.pfb><C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
 lm/lmsy10.pfb>
-Output written on main.pdf (11 pages, 328951 bytes).
+Output written on main.pdf (14 pages, 344711 bytes).
 
-PDF statistics: 259 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 131072)
- 248 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 312 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 131072)
+ 304 words of extra memory for PDF output out of 10000 (max. 100000000)
 

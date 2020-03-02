@@ -12,27 +12,88 @@
 
     \subsection{Wie funktioniert eine Künstliche Intelligenz?}
     \label{subsec:wie_funktioniert_eine_kuenstliche_intelligenz}
-    Künstliche Intelligenzen funktionieren je nach Abwandlung etwas verschieden aber ähneln sich dennoch in ihrem Aufbau. In dieser Arbeit werden die sogenannten Neuronalen Netzwerke, welche in den meisten Systemen Anwendung finden, behandelt. 
+    Künstliche Intelligenzen funktionieren je nach Abwandlung etwas verschieden aber ähneln sich dennoch in ihrem Aufbau. In dieser Arbeit werden die sogenannten Neuronalen Netzwerke, welche in den meisten Systemen Anwendung finden, behandelt. Dennoch werden zunächst die beiden Definitionen \enquote{Deep Learning} und \enquote{Machine Learning} behandelt, da diese eine große Rolle im Bereich KI spielen.
 
-    \begin{figure}[ht]
-        \includegraphics[width=\textwidth, scale=0.8]{resources/images/img/Neural Networks/neural-network-example.png}
-        \caption{Beispiel eines Neuronalen Netzes [Quelle: \ref{subsubsec:Beispiel_eines_Neuronalen_Netzes}]}
-        \label{fig:Beispiel_Neuronales_Netz}
-    \end{figure}
+        \subsubsection{Deep Learning}
+        \label{subsubsec:deep_learning}
+            Deep Learning ist ein Lernverfahren für eine KI welches selbst auch als Machine Learning bezeichnet werden kann. In einem solchen Verfahren lernt die Software mit Hilfe eines programmierten Neuronalen Netzwerk um im Nachhinein präzise Ausgaben zu tätigen [vgl. \ref{subsec:machine_learning_and_deep_learning}]. Diese spezielle Art des Lernens wird für die Neuronalen Netze verwendet die in dieser Arbeit hauptsächlich behandelt werden. In einem späteren Abschnitt wird das Trainieren eines Neuronalen Netzes noch einmal genauer erklärt. [siehe \ref{subsubsec:trainieren_eines_neuronalen_netzes}]
 
-    Diese sind nach der Theorie wie unser Gehirn funktioniert aufgebaut. Hierbei arbeiten viele Neurone zusammen um Daten und Befehle zu verarbeiten [vgl. \ref{subsubsec:dasgehirn:Zellen-Arbeiter_Des_Gehrins}]. Die Neuronalen Netze besitzen 3 verschiedene Layer welche zur Datenverarbeitung genutzt werden können.\\
-    
-    Diese Layer werden \enquote{Input Layer}, \enquote{Hidden Layer} und \enquote{Output Layer} genannt. Innerhalb dieser gibt es sogenannte Neuronen, welche mit jeweils jedem Neuron der vorherigen und der nächsten Schicht verbunden ist. Jedes dieser Neuronen hat ein Gewicht welches das Ergebnis im \enquote{Output Layer} beeinflussen kann. Wie viele Neuron-Verbindungen es gibt hängt von der Anzahl der Neuronen sowie der \enquote{Hidden Layers} ab. Im Beispiel [Abbildung \ref{fig:Beispiel_Neuronales_Netz}] ist diese Rechnung noch sehr simpel.
-    
-    \begin{align}
-        3 \cdot 4 = 12 + (4 \cdot 4) = 28 + (4 \cdot 1) = 32
-    \end{align}
-    
-    Das Beispiel hat also insgesamt 32 Neuronen Verbindungen. Dies ist noch ein sehr kleines Netz, welches für Anschauungszwecke allerdings völlig ausreicht.\\
-    
+        \subsubsection{Machine Learning}
+        \label{subsubsec:machnine_learning}
+            \enquote{Algorithms that parse data, learn from that data, and then apply what they’ve learned to make informed decisions} [siehe \ref{subsec:machine_learning_and_deep_learning}]. Sinngemäß übersetzt heißt dieser Satz \enquote{Algorythmen die Daten analysieren, von diesen lernen, und ihr erlerntes Wissen zu nutzen um sachkundige Entscheidungen zu treffen}. Dies ist die Grunddefinition zu Machine Learning, zu deutsch Maschinelles Lernen, auf die sich in dieser Arbeit berufen wird.\\
+            Um dies an einem realen Beispiel zu veranschaulichen kann man sich Streaming Dienste wie Spotify, Deezer, Netflix oder Amazon Prime nahmen. Hierbei sei gesagt, dass die folgende Theorie zur Verarbeitung von Daten nicht unbedingt der Wirklichkeit entsprechen muss. Dies ist nur ein Ansatz auf welche Art und Weise ein Machine Learning Ansatz umsetzbar ist.\\
+
+            Für das Maschinelle Lernen ist keine komplexe Struktur nötig. Wenn man einfach nur ein System möchte welches einem Nutzer z.B. auf der Seite Netflix neue Serien und Filme, basierend auf den vergangen geschauten Inhalten, vorschlägt und man keinen Wert auf einen zu 100\% Leistungsoptimierten Ansatz vorraussetzt, so kann man mit einfachen Tags und Textdateien arbeiten. Tags ist Englisch und bedeutet Etikett oder Stichwort. Einfach gesagt werden diese Tags an alles angeheftet was man analysieren und kategorisieren möchte. Man kann diese mit den sogenannten Hashtags von Instagram, Twitter und anderen sozialen Netzwerken vergleichen. Diese werden auch zum kategorisieren verwendet. Sucht ein Nutzer z.B. nach Katzen oder dem Hashtag Katzen werden ihm Inhalte bevorzugt angezeigt die genau diesen tag, also mit dem Etikett \enquote{Keatze} versehen sind, versehen sind. Nehmen wir für unser Beispiel einen Nutzer, welcher folgende Serien in seinem Verlauf hat. In der linken Spalte der vorliegenden Tabelle wird dabei der Serien Name angezeigt und in der rechten Spalte werden die Tags zu der Serie angezeigt (diese können von den tatsächlichen Tags abweichen und dienen nur zur veranschaulichung)
+            
+            \begin{center}
+                \begin{tabular}[h]{l|l}
+                    Serie & Tags \\
+                    \hline
+                    The Walking Dead & Zombies, Apokalypse, Überleben, Action \\
+                    Arrow & DC-Comics, Action, Stephen Amell \\
+                    World Trigger & Anime, Action, Dimensionen \\
+                \end{tabular}
+            \end{center}
+
+            Dies sind zwar nur wenig Daten aber zum Verständnis reicht es vollkommen aus. Nehmen wir nun die einzelnen Tags, können wir sehen bzw. vermuten welche Serien der Nutzer gerne schaut und ihm dementsprechend Empfehlungen geben. Hier in einem Säulendiagramm dargestellt.
+
+            \begin{center}
+            \begin{tikzpicture}
+            \label{Diagramm 1}
+ 
+                \draw (0cm,0cm) -- (11cm,0cm);
+                \draw (0cm,0cm) -- (0cm,-0.1cm);
+                \draw (11cm,0cm) -- (11cm,-0.1cm);
+                
+                \draw (-0.1cm,0cm) -- (-0.1cm,3cm);
+                \draw (-0.1cm,0cm) -- (-0.2cm,0cm);
+
+                \foreach \x in {1,...,3}
+                    \draw[gray!50, text=black] (-0.2 cm,\x cm) -- (11 cm,\x cm) node at (-0.5 cm,\x cm) {\x};
+
+                \foreach \x/\y/\tag in {
+                    0.5/3/Action,
+                    2/1/Anime,
+                    3.5/1/Apokalypse,
+                    5/1/DC-Comics,
+                    6.5/1/Dimensionen,
+                    8/1/Stephen Amell,
+                    9.5/1/Überleben,
+                    11/1/Zombies
+                } {
+                    \draw[fill=myblue] (\x cm,0cm) rectangle (1cm+\x cm,\y cm) 
+                    node at (0.5cm + \x cm,\y cm + 0.3cm) {\y};
+                    \node[rotate=45, left] at (0.6 cm +\x cm,-0.1cm) {\tag};
+                }
+
+              
+            \end{tikzpicture}
+            \end{center}
+
+            In einer für und Menschen anschaulichen Version dargestellt, ist nun deutlich zu sehen, dass der Nutzer Action-Serien priorisiert, denn im Gegensatz zu aderen Tags ist der Tag Action drei mal vorgekommen. Wie gesagt ist dies eine sehr ungenaue Vorhersage aufgrund der geringen Datenmenge. Nutzt man den jeweiligen Service aber nun schon eine Weile kann man daraus sehr interessant Daten gewinnen. Aber was bringt uns nun zu wissen welche Tags häufig im Serienverlauf des Nutzers vorkommen? Ganz einfach. Wenn in einem Monat z.B. 40 neue Serien auf Netflix lizenziert werden, ist es sinnlos dem Nutzer einfach alle auf dem Startbildschirm zu zeigen. Sinnvoller wäre es dem Nutzer erst die Serien zu zeigen die mit ähnlichen Tags markiert sind wie diese die der Nutzer mag. So kann in der Theorie für den Nutzer ein spannender und nicht langweiliger Filmabend gesichert werden. Zudem werden diese Informationen an Marketing Firmen weiterverkauft, wodurch versucht wird den Nutzer zu neuen Inhalten zu bewegen die seinem Interessengebiet entsprechen [vgl. \ref{Netflix_Research:machine_learning_learn_how_to_entertain_the_world}]
+
+        \subsubsection{Aufbau eines Neuronalen Netzes}
+
+            Neuronale Netze sind nach der Theorie wie unser Gehirn funktioniert aufgebaut. Hierbei arbeiten viele Neurone zusammen um Daten und Befehle zu verarbeiten [vgl. \ref{subsubsec:dasgehirn:Zellen-Arbeiter_Des_Gehrins}]. Die Neuronalen Netze besitzen 3 verschiedene Layer welche zur Datenverarbeitung genutzt werden können.\\
+
+            \begin{figure}[ht]
+                \includegraphics[width=\textwidth, scale=0.8]{resources/images/img/Neural Networks/neural-network-example.png}
+                \caption{Beispiel eines Neuronalen Netzes [Quelle: \ref{subsubsec:Beispiel_eines_Neuronalen_Netzes}]}
+                \label{fig:Beispiel_Neuronales_Netz}
+            \end{figure}
+            
+            Diese Layer werden \enquote{Input Layer}, \enquote{Hidden Layer} und \enquote{Output Layer} genannt. Innerhalb dieser gibt es sogenannte Neuronen, welche mit jeweils jedem Neuron der vorherigen und der nächsten Schicht verbunden ist. Jedes dieser Neuronen hat ein Gewicht welches das Ergebnis im \enquote{Output Layer} beeinflussen kann. Wie viele Neuron-Verbindungen es gibt hängt von der Anzahl der Neuronen sowie der \enquote{Hidden Layers} ab. Im Beispiel [Abbildung \ref{fig:Beispiel_Neuronales_Netz}] ist diese Rechnung noch sehr simpel.
+            
+            \begin{align}
+                3 \cdot 4 = 12 + (4 \cdot 4) = 28 + (4 \cdot 1) = 32
+            \end{align}
+            
+            Das Beispiel hat also insgesamt 32 Neuronen Verbindungen. Dies ist noch ein sehr kleines Netz, welches für Anschauungszwecke allerdings völlig ausreicht.\\
+        
         \subsubsection{Trainieren eines Neuronalen Netzes}
-        Mit einem gerade erstellten Neuronalen Netz können noch keine Daten sinnvoll verarbeitet werden. Zunächst muss dieses auf das Anwendungsgebiet trainiert werden.\\
-        In diesem Training bekommen die Neuronen zunächst ein zufälliges Gewicht welches meist zwischen -1 und 1 liegt. Als nächstes werden Daten in das Neuronale Netz gegeben. Natürlich wird die Ausgabe größtenteils falsch sein und nur durch Glück einen richtigen Ansatz haben. Nach dem der erste Datensatz durchgelaufen ist, passt das Netz seine Gewichte automatisch an. Hierbei erkennt es welche Neuronen den größten Einfluss auf das aktuelle Ergebnis hatten und berechnet dabei die Abweichung vom erwarteten Ergebnis die diese verursachten. Im Anschluss werden diese fehlerhaften Gewichte ein kleines bisschen angepasst sodass die Ergebnisse am \enquote{Output Layer} ein wenig näher am erwarteten Ergebnis sind als vorher [vgl. \ref{subsubsec:Wie_lernen_neuronale_netze}]. Dieser Vorgang wird nun mit einem großen Datensatz mehrere hunderte oder tausend mal wiederholt. Hierbei gilt je größer der Datensatz desto genauer und \enquote{intelligenter [vgl. \ref{subsec:definiton_kuenstliche_intelligenz}]} das Neuronale Netz.
+        \label{subsubsec:trainieren_eines_neuronalen_netzes}
+            Mit einem gerade erstellten Neuronalen Netz können noch keine Daten sinnvoll verarbeitet werden. Zunächst muss dieses auf das Anwendungsgebiet trainiert werden.\\
+            In diesem Training bekommen die Neuronen zunächst ein zufälliges Gewicht welches meist zwischen -1 und 1 liegt. Als nächstes werden Daten in das Neuronale Netz gegeben. Natürlich wird die Ausgabe größtenteils falsch sein und nur durch Glück einen richtigen Ansatz haben. Nach dem der erste Datensatz durchgelaufen ist, passt das Netz seine Gewichte automatisch an. Hierbei erkennt es welche Neuronen den größten Einfluss auf das aktuelle Ergebnis hatten und berechnet dabei die Abweichung vom erwarteten Ergebnis die diese verursachten. Im Anschluss werden diese fehlerhaften Gewichte ein kleines bisschen angepasst sodass die Ergebnisse am \enquote{Output Layer} ein wenig näher am erwarteten Ergebnis sind als vorher [vgl. \ref{subsubsec:Wie_lernen_neuronale_netze}]. Dieser Vorgang wird nun mit einem großen Datensatz mehrere hunderte oder tausend mal wiederholt. Hierbei gilt je größer der Datensatz desto genauer und \enquote{intelligenter [vgl. \ref{subsec:definiton_kuenstliche_intelligenz}]} das Neuronale Netz.
     
     \subsection{Erste Konzepte Künstlicher Intelligenz}
     \label{subsec:Theorie:Erste_Konzepte_von_KI}
@@ -40,6 +101,8 @@
         
         \subsubsection{Logic Theorist - Was konnte es?}
         \label{subsubsec:Logic_Theorist:Was_konnte_es}
-            Der Logic Theorist sollte dazu dienen Mathematische Behauptungen zu beweisen. Von dem zweiten Kapitel der \enquote{Prinzipien der Mathematik}, ein Buch Trilogie welche Grundlagen der Mathematik zusammenfasst [siehe \ref{book:prinzipa_of_mathmatics}], konnte das Programm von den ersten 52 Theorien insgesamt 38 beweisen. Einige dieser Lösungen waren laut Quellen sogar \enquote{schöner} gelöst als die handschriftliche Lösung der Autoren Bertrand Russel und Alfred North Whiteheard
+            Der Logic Theorist sollte dazu dienen Mathematische Behauptungen zu beweisen. Von dem zweiten Kapitel der \enquote{Prinzipien der Mathematik}, ein Buch Trilogie welche Grundlagen der Mathematik zusammenfasst [siehe \ref{book:prinzipa_of_mathmatics}], konnte das Programm von den ersten 52 Theorien insgesamt 38 beweisen. Einige dieser Lösungen waren laut Quellen sogar \enquote{schöner} gelöst als die handschriftliche Lösung der Autoren Bertrand Russel und Alfred North Whiteheard.
 
     \subsection{Das System der Gesichtserkennung}
+    \label{subsec:system_of_face_recognition}
+
