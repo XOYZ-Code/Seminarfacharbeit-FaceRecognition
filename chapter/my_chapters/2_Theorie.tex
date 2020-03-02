@@ -27,6 +27,7 @@
             
             \begin{center}
                 \begin{tabular}[h]{l|l}
+                \label{Tabelle_1}
                     Serie & Tags \\
                     \hline
                     The Walking Dead & Zombies, Apokalypse, Überleben, Action \\
@@ -38,36 +39,36 @@
             Dies sind zwar nur wenig Daten aber zum Verständnis reicht es vollkommen aus. Nehmen wir nun die einzelnen Tags, können wir sehen bzw. vermuten welche Serien der Nutzer gerne schaut und ihm dementsprechend Empfehlungen geben. Hier in einem Säulendiagramm dargestellt.
 
             \begin{center}
-            \begin{tikzpicture}
-            \label{Diagramm 1}
- 
-                \draw (0cm,0cm) -- (11cm,0cm);
-                \draw (0cm,0cm) -- (0cm,-0.1cm);
-                \draw (11cm,0cm) -- (11cm,-0.1cm);
+                \begin{tikzpicture}
+                \label{Diagramm_1}
+    
+                    \draw (0cm,0cm) -- (11cm,0cm);
+                    \draw (0cm,0cm) -- (0cm,-0.1cm);
+                    \draw (11cm,0cm) -- (11cm,-0.1cm);
+                    
+                    \draw (-0.1cm,0cm) -- (-0.1cm,3cm);
+                    \draw (-0.1cm,0cm) -- (-0.2cm,0cm);
+
+                    \foreach \x in {1,...,3}
+                        \draw[gray!50, text=black] (-0.2 cm,\x cm) -- (11 cm,\x cm) node at (-0.5 cm,\x cm) {\x};
+
+                    \foreach \x/\y/\tag in {
+                        0.5/3/Action,
+                        2/1/Anime,
+                        3.5/1/Apokalypse,
+                        5/1/DC-Comics,
+                        6.5/1/Dimensionen,
+                        8/1/Stephen Amell,
+                        9.5/1/Überleben,
+                        11/1/Zombies
+                    } {
+                        \draw[fill=myblue] (\x cm,0cm) rectangle (1cm+\x cm,\y cm) 
+                        node at (0.5cm + \x cm,\y cm + 0.3cm) {\y};
+                        \node[rotate=45, left] at (0.6 cm +\x cm,-0.1cm) {\tag};
+                    }
+
                 
-                \draw (-0.1cm,0cm) -- (-0.1cm,3cm);
-                \draw (-0.1cm,0cm) -- (-0.2cm,0cm);
-
-                \foreach \x in {1,...,3}
-                    \draw[gray!50, text=black] (-0.2 cm,\x cm) -- (11 cm,\x cm) node at (-0.5 cm,\x cm) {\x};
-
-                \foreach \x/\y/\tag in {
-                    0.5/3/Action,
-                    2/1/Anime,
-                    3.5/1/Apokalypse,
-                    5/1/DC-Comics,
-                    6.5/1/Dimensionen,
-                    8/1/Stephen Amell,
-                    9.5/1/Überleben,
-                    11/1/Zombies
-                } {
-                    \draw[fill=myblue] (\x cm,0cm) rectangle (1cm+\x cm,\y cm) 
-                    node at (0.5cm + \x cm,\y cm + 0.3cm) {\y};
-                    \node[rotate=45, left] at (0.6 cm +\x cm,-0.1cm) {\tag};
-                }
-
-              
-            \end{tikzpicture}
+                \end{tikzpicture}
             \end{center}
 
             In einer für und Menschen anschaulichen Version dargestellt, ist nun deutlich zu sehen, dass der Nutzer Action-Serien priorisiert, denn im Gegensatz zu aderen Tags ist der Tag Action drei mal vorgekommen. Wie gesagt ist dies eine sehr ungenaue Vorhersage aufgrund der geringen Datenmenge. Nutzt man den jeweiligen Service aber nun schon eine Weile kann man daraus sehr interessant Daten gewinnen. Aber was bringt uns nun zu wissen welche Tags häufig im Serienverlauf des Nutzers vorkommen? Ganz einfach. Wenn in einem Monat z.B. 40 neue Serien auf Netflix lizenziert werden, ist es sinnlos dem Nutzer einfach alle auf dem Startbildschirm zu zeigen. Sinnvoller wäre es dem Nutzer erst die Serien zu zeigen die mit ähnlichen Tags markiert sind wie diese die der Nutzer mag. So kann in der Theorie für den Nutzer ein spannender und nicht langweiliger Filmabend gesichert werden. Zudem werden diese Informationen an Marketing Firmen weiterverkauft, wodurch versucht wird den Nutzer zu neuen Inhalten zu bewegen die seinem Interessengebiet entsprechen [vgl. \ref{Netflix_Research:machine_learning_learn_how_to_entertain_the_world}]
@@ -103,6 +104,18 @@
         \label{subsubsec:Logic_Theorist:Was_konnte_es}
             Der Logic Theorist sollte dazu dienen Mathematische Behauptungen zu beweisen. Von dem zweiten Kapitel der \enquote{Prinzipien der Mathematik}, ein Buch Trilogie welche Grundlagen der Mathematik zusammenfasst [siehe \ref{book:prinzipa_of_mathmatics}], konnte das Programm von den ersten 52 Theorien insgesamt 38 beweisen. Einige dieser Lösungen waren laut Quellen sogar \enquote{schöner} gelöst als die handschriftliche Lösung der Autoren Bertrand Russel und Alfred North Whiteheard.
 
-    \subsection{Das System der Gesichtserkennung}
-    \label{subsec:system_of_face_recognition}
+    \subsection{Das System der Gesichtsentdeckung}
+    \label{subsec:system_of_face_detection}
+            Die Gesichtsentdeckung, zu englisch \enquote{face detection}, bildet die Basis der Erkennung bzw. Wiedererkennung von Gesichtern. Um ein Gesicht in einem Bild oder Video erkennen zu können, müssen zunächst die biometrischen Daten der Gesichter auf dem Bild extrahiert werden. Dabei werden Bilder systematisch nach Gesichtern untersucht sowie die Lage, die Pixelkoordinate im Bild, der dabei gefundenen Merkmale gespeichert. Hierbei gibt es verschiedene Methoden die in den folgenden Unterkapiteln behandelt werden. [vgl. \ref{book:DigitalGesichtserkennung}]
 
+            \subsubsection{Gesichtsentdeckung durch Bildreduzierung um Hintergrundinformationen}
+            \label{subsubsec:face_detection_bildreduzierung_um_hintergrundinformationen}
+                Wenn in einem Bild der Hintergrund bekannt ist, z.B. von einer Kamera die auf einem Stativ still an einem Ort verweilt, können Gesichter durch Substraktion des gespeicherten Hintergrundes und des aufgenommenen Bildes aus dem Bild extrahiert werden. Hierbei ist wichtig, dass das Gesicht nur in der Frontalansicht ordnungsgemäß erkannt werden kann. Zudem ist es wichtig, dass sich der Hintergrund nicht verändert und durchgehend statisch bleibt. [vgl. \ref{book:DigitalGesichtserkennung}]
+            
+            \subsubsection{Gesichtsentdeckung durch Farbinformationen}
+            \label{subsubsec:face_detection_with_color_information}
+                Das Menschliche Gesicht kann in einem Bild auf einer relativ großen Fläche in einem Bild eine sehr monotone Farbgebung darstellen. Dies kann man sich zu nutze machen, und in einem Bild nach diesen Ansammlungen suchen. Dazu wird zunächst eine Analyse gestartet, welche die Sättigung pro Farbton angibt. Durch die relativ dichte und monotone Farbgebung eines Gesichtes, kann durch dieses Analyseverfahren auf ein Gesicht geschlossen werden.\\
+                Diese Methode ist allerdings nicht perfekt und birgt zwei große nachteile. Zunächst gibt es das Problem mit den Lichtverhältnissen. In dunklen Bildern werden Menschen mit dunkler Hautfarbe eher weniger erkannt als Menschen mit heller Hautfarben sowie in hellen Bildern eher dunkelhäutige Menschen erkannt werden. Außerdem gibt es das Problem, dass große Ansammlungen von ähnlichfarbigen Pixeln die Ausgabe beeinflussen können. [\ref{book:DigitalGesichtserkennung}]
+
+            \subsubsection{Gesichtsentdeckung durch Bewegungsinformationen}
+            \label{subsubsec:face_detection_durch_bewegungsinformationen}

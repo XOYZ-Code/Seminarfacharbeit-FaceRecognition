@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.11.2 (MiKTeX 2.9.7250 64-bit)  (format=lualatex 2020.1.23)  2 MAR 2020 02:07
+This is LuaTeX, Version 1.11.2 (MiKTeX 2.9.7250 64-bit)  (format=lualatex 2020.1.23)  2 MAR 2020 10:19
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -59,7 +59,7 @@ Lua module: luaotfload-tounicode 2019-11-10 3.11 luaotfload submodule / tounicod
 e
 Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 1.313 seconds
+luaotfload | main : initialization completed in 1.825 seconds
 (./resources/settings/settings.tex
 ("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls"
 Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
@@ -2044,7 +2044,7 @@ Overfull \hbox (8.53589pt too wide) in paragraph at lines 99--99
 [] 
  []
 
-<resources/images/deckblatt.jpg, id=150, 1243.64626pt x 1760.5775pt>
+<resources/images/deckblatt.jpg, id=162, 1243.64626pt x 1760.5775pt>
 File: resources/images/deckblatt.jpg Graphic file (type jpg)
 <use resources/images/deckblatt.jpg>
 Package luatex.def Info: resources/images/deckblatt.jpg  used on input line 99.
@@ -2177,31 +2177,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--25
  []
 
 [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
-<resources/images/img/Neural Networks/neural-network-example.png, id=234, 1496.5
+<resources/images/img/Neural Networks/neural-network-example.png, id=250, 1496.5
 9125pt x 722.7pt>
 File: resources/images/img/Neural Networks/neural-network-example.png Graphic fi
 le (type png)
 <use resources/images/img/Neural Networks/neural-network-example.png>
 Package luatex.def Info: resources/images/img/Neural Networks/neural-network-exa
-mple.png  used on input line 80.
+mple.png  used on input line 81.
 (luatex.def)             Requested size: 1197.27466pt x 578.16078pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
-[4] [5<./resources/images/img/Neural Networks/neural-network-example.png>])
-[6] (./chapter/my_chapters/3_Praxis.tex) [7] (./chapter/my_chapters/4_Ethik.tex
-) [8] (./chapter/my_chapters/Anhang.tex
+[4] [5<./resources/images/img/Neural Networks/neural-network-example.png>]
+[6]) [7] (./chapter/my_chapters/3_Praxis.tex) [8]
+(./chapter/my_chapters/4_Ethik.tex) [9] (./chapter/my_chapters/Anhang.tex
 Underfull \hbox (badness 10000) in paragraph at lines 43--48
 
  []
 
-[9]
+[10]
 Overfull \hbox (23.69391pt too wide) in paragraph at lines 66--68
 \TU/Arial(0)/m/n/12 URL: htt-ps://www.das-ge-hirn.info/grundlagen/kommunikation
 -der-zellen/zellen-spezialisierte-
@@ -2209,25 +2209,25 @@ Overfull \hbox (23.69391pt too wide) in paragraph at lines 66--68
 
 )
 No file main.bbl.
-[10]
+[11]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9F1DB51EF658152AAE2716EBDFFF8777;8159.
+(rerunfilecheck)             Checksum: AD8A0D3A7ADCDE314203BB1526E4B7E7;9180.
 )
 
 Here is how much of LuaTeX's memory you used:
- 58941 strings out of 493863
+ 58952 strings out of 493863
  125171,1648299 words of node,token memory allocated
- 643 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 14 attribute, 77 glue_spec
-, 9 attribute_list, 2 write nodes
-   avail lists: 1:2,2:2243,3:386,4:53,5:138,6:62,7:3828,8:31,9:382,10:27,11:420,
+ 655 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 16 attribute, 77 glue_spec
+, 10 attribute_list, 2 write, 1 pdf_action nodes
+   avail lists: 1:2,2:2243,3:386,4:53,5:134,6:58,7:3828,8:31,9:382,10:27,11:420,
 12:1
- 61730 multiletter control sequences out of 65536+200000
+ 61737 multiletter control sequences out of 65536+200000
  63 fonts using 23958471 bytes
  67i,19n,103p,1932b,2144s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.e
@@ -2236,9 +2236,9 @@ c}<C:/WINDOWS/Fonts/ariali.ttf><C:/WINDOWS/Fonts/arial.ttf><C:/WINDOWS/Fonts/ari
 albd.ttf><C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm
 /lmr12.pfb><C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
 lm/lmsy10.pfb>
-Output written on main.pdf (14 pages, 344711 bytes).
+Output written on main.pdf (15 pages, 351179 bytes).
 
-PDF statistics: 312 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 131072)
- 304 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 336 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 131072)
+ 328 words of extra memory for PDF output out of 10000 (max. 100000000)
 
