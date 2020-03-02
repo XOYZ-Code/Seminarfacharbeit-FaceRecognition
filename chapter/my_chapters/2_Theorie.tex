@@ -106,16 +106,36 @@
 
     \subsection{Das System der Gesichtsentdeckung}
     \label{subsec:system_of_face_detection}
-            Die Gesichtsentdeckung, zu englisch \enquote{face detection}, bildet die Basis der Erkennung bzw. Wiedererkennung von Gesichtern. Um ein Gesicht in einem Bild oder Video erkennen zu können, müssen zunächst die biometrischen Daten der Gesichter auf dem Bild extrahiert werden. Dabei werden Bilder systematisch nach Gesichtern untersucht sowie die Lage, die Pixelkoordinate im Bild, der dabei gefundenen Merkmale gespeichert. Hierbei gibt es verschiedene Methoden die in den folgenden Unterkapiteln behandelt werden. [vgl. \ref{book:DigitalGesichtserkennung}]
+        Die Gesichtsentdeckung, zu englisch \enquote{face detection}, bildet die Basis der Erkennung bzw. Wiedererkennung von Gesichtern. Um ein Gesicht in einem Bild oder Video erkennen zu können, müssen zunächst die biometrischen Daten der Gesichter auf dem Bild extrahiert werden. Dabei werden Bilder systematisch nach Gesichtern untersucht sowie die Lage, die Pixelkoordinate im Bild, der dabei gefundenen Merkmale gespeichert. Hierbei gibt es verschiedene Methoden die in den folgenden Unterkapiteln behandelt werden [vgl. \ref{book:DigitalGesichtserkennung}]. Hierbei sei zu beachten, dass es einen Unterschied zwischen der Gesichtsentdeckung und der Gesichtserkennung gibt. Während die Gesichtsentdeckung nur dazu dienen soll Gesichter zu erkennen, geht die Gesichtserkennung noch weiter und kann diese analysieren und zuordnen.
 
-            \subsubsection{Gesichtsentdeckung durch Bildreduzierung um Hintergrundinformationen}
-            \label{subsubsec:face_detection_bildreduzierung_um_hintergrundinformationen}
-                Wenn in einem Bild der Hintergrund bekannt ist, z.B. von einer Kamera die auf einem Stativ still an einem Ort verweilt, können Gesichter durch Substraktion des gespeicherten Hintergrundes und des aufgenommenen Bildes aus dem Bild extrahiert werden. Hierbei ist wichtig, dass das Gesicht nur in der Frontalansicht ordnungsgemäß erkannt werden kann. Zudem ist es wichtig, dass sich der Hintergrund nicht verändert und durchgehend statisch bleibt. [vgl. \ref{book:DigitalGesichtserkennung}]
+        \subsubsection{Gesichtsentdeckung durch Bildreduzierung um Hintergrundinformationen}
+        \label{subsubsec:face_detection_bildreduzierung_um_hintergrundinformationen}
+            Wenn in einem Bild der Hintergrund bekannt ist, z.B. von einer Kamera die auf einem Stativ still an einem Ort verweilt, können Gesichter durch Substraktion des gespeicherten Hintergrundes und des aufgenommenen Bildes aus dem Bild extrahiert werden. Hierbei ist wichtig, dass das Gesicht nur in der Frontalansicht ordnungsgemäß erkannt werden kann. Zudem ist es wichtig, dass sich der Hintergrund nicht verändert und durchgehend statisch bleibt. [vgl. \ref{book:DigitalGesichtserkennung}]
+        
+        \subsubsection{Gesichtsentdeckung durch Farbinformationen}
+        \label{subsubsec:face_detection_with_color_information}
+            Das Menschliche Gesicht kann in einem Bild auf einer relativ großen Fläche in einem Bild eine sehr monotone Farbgebung darstellen. Dies kann man sich zu nutze machen, und in einem Bild nach diesen Ansammlungen suchen. Dazu wird zunächst eine Analyse gestartet, welche die Sättigung pro Farbton angibt. Durch die relativ dichte und monotone Farbgebung eines Gesichtes, kann durch dieses Analyseverfahren auf ein Gesicht geschlossen werden.\\
+            Diese Methode ist allerdings nicht perfekt und birgt zwei große nachteile. Zunächst gibt es das Problem mit den Lichtverhältnissen. In dunklen Bildern werden Menschen mit dunkler Hautfarbe eher weniger erkannt als Menschen mit heller Hautfarben sowie in hellen Bildern eher dunkelhäutige Menschen erkannt werden. Außerdem gibt es das Problem, dass große Ansammlungen von ähnlichfarbigen Pixeln die Ausgabe beeinflussen können. [\ref{book:DigitalGesichtserkennung}]
+
+        \subsubsection{Gesichtsentdeckung durch Bewegungsinformationen}
+        \label{subsubsec:face_detection_durch_bewegungsinformationen}
+            So wie Gesichter durch Farbinformationen erkannt werden können sie ähnlich auch durch Bewegungsinformationen erkannt werden. Diese art der Gesichtsentdeckung ist aufgrund der benötigten Daten auf Videos beschränkt. In diesem Verfahren wird sich zu nutze gemacht, dass das Gesicht fast dauerhaft in bewegung ist. Der Algorithmus vergleicht die korrespondierenden Pixel und geht von einem neuen Bild aus, wenn diese sich um einen bestimmten Betrag verändern. Aus diesen wird dann eine Differenz gebildet wodurch ein Gesicht erkannt werden kann. Welcher Bildausschnitt betrachtet werden soll, wird im vorhinein festgelegt. Allerdings produziert dieses Verfahren ene vielzahl an Fehlern, da auch bewegte Objekte als \enquote{Gesichter} erkannt werden [\ref{book:DigitalGesichtserkennung}].
+
+        \subsubsection{Gesichtsentdeckung durch Geometrie}
+        \label{subsubsec:face_detectiom_with_geometry}
+            Face detection durch Geometrie ist wohl mit eine der genausten Arten Gesichtsentdeckung durchzuführen. Hierbei wird ein Bild soweit gefiltert, dass es nur noch eine Binäre Kantenebene hat. Das bedeutet, dass z.B. von einem Gesicht nur noch die Umrisse von Augen, Nase, Mund, Haare und Form sichtbar sind. Dieses Kantenbild, wird dann mit dem Kantenbild eines Typischen Gesichts verglichen indem die Hausdorff-Distanz berechnet wird. Diese Distanz beschreibt den kleinstmöglichen Abstand einer Punktmenge zu einer zweiten Punktmenge. Dieses Verfahren führt man dann mit einem detaillierten Bild einer Augenpartie durch und kann dann, aufgrund der Hausdorff-Differenz, entscheiden ob es sich um ein Gesicht handelt oder nicht [vgl. \ref{book:DigitalGesichtserkennung}].
             
-            \subsubsection{Gesichtsentdeckung durch Farbinformationen}
-            \label{subsubsec:face_detection_with_color_information}
-                Das Menschliche Gesicht kann in einem Bild auf einer relativ großen Fläche in einem Bild eine sehr monotone Farbgebung darstellen. Dies kann man sich zu nutze machen, und in einem Bild nach diesen Ansammlungen suchen. Dazu wird zunächst eine Analyse gestartet, welche die Sättigung pro Farbton angibt. Durch die relativ dichte und monotone Farbgebung eines Gesichtes, kann durch dieses Analyseverfahren auf ein Gesicht geschlossen werden.\\
-                Diese Methode ist allerdings nicht perfekt und birgt zwei große nachteile. Zunächst gibt es das Problem mit den Lichtverhältnissen. In dunklen Bildern werden Menschen mit dunkler Hautfarbe eher weniger erkannt als Menschen mit heller Hautfarben sowie in hellen Bildern eher dunkelhäutige Menschen erkannt werden. Außerdem gibt es das Problem, dass große Ansammlungen von ähnlichfarbigen Pixeln die Ausgabe beeinflussen können. [\ref{book:DigitalGesichtserkennung}]
+    \subsection{Das System der Gesichtserkennung}
+    \label{subsec:system_of_face_recognition}
+        Noch weiter als die Gesichtsentdeckung geht die Gesichtserkennung. Sie beschäftigt sich nicht nur mit der Erkennung von Gesichtern, sondern auch mit der Identifizierung von Personen anhand biometrischer Daten [vgl. \ref{book:DigitalGesichtserkennung} \& \ref{source:searchenterpriseai:facial_recognition}]. Hierbei wird zwischen der Lernphase und Erkennungsphase unterscheidet. In diesem Abschnitt wird auf die Funktionsweise verschiedener Algorithmen eingegangen, die zur Gesichtserkennung genutzt werden.\\
+        In den Anfängen der Gesichtserkennung wurde ein Bild nach Augen, Mund und Nase durchsucht. Von diesen wurden die relativen Abstände bestimmt wodurch ermittelbar war ob es sich um ein Gesicht handelt oder nicht. Der Nachteil dieser Methode (welche auch 2D-Verfahren genannt wird) ist, dass nur Frontalaufnahmen von Gesichtern ordnungsgemäß erkannt werden konnten.
 
-            \subsubsection{Gesichtsentdeckung durch Bewegungsinformationen}
-            \label{subsubsec:face_detection_durch_bewegungsinformationen}
+        \subsubsection{3D-Verfahren}
+        \label{subsubsec:3d_verfahren}
+            Im Gegensatz zum 2D-Verfahren nutzt das 3D-Verfahren den 3-dimensionalen Raum. Hierbei wird nicht einfach nur der Abstand von Augen, Nase, Mund und anderen Gesichtsmerkmalen auf der X und Y-Achse bemessen sondern mit Hilfe von Streifenprojektion auch auf der Z-Achse bemessen. Durch diese drei Achsen ist es auch möglich Winkelberechnungen anzustellen welche bei der Differenzierung von verschiedenen Gesichtern nützlich sein kann. Für diese Methode sind allerdings auch spezielle Sensoren notwendig [vgl. \ref{book:DigitalGesichtserkennung} \& \ref{wiki:face_recognition}]. Diese sind mittlerweile aber auch schon in vielen Smartphones verbaut. Eine genauere Erklärung dieser Sensoren ist in dem Abschnitt [\ref{subsec:FaceID_TrustedFace}] zu finden.
+
+        \subsubsection{Elastic bunch Graph Matching}
+        \label{subsubsec:Elastic_bunch_graph_Matching}
+            
+
+            
