@@ -151,13 +151,17 @@
 
             \subsubsubsection{Jets}
             \label{subsubsubsec:jets}
-                \begin{wrapfigure}[10]{r}{0.25\textwidth}
+                \begin{wrapfigure}[11]{r}{0.25\textwidth}
+                    \centering
                     \includegraphics[width=0.25\textwidth]{resources/images/img/Face recognition/Elastic Bunch Graph Matching - Bunch of Jets.png}
-                    \caption{Ansammlungen von Jets [Quelle \ref{image:Bunch_of_jets}]}
+                    \caption{\\[Quelle \ref{image:Bunch_of_jets}]}
                     \label{fig:bunch_of_jets}
                 \end{wrapfigure}
-                Ein Jet bezeichnet eine geringe Menge an Grauwerten rund um ein definiertes Pixel. Diese beinhalten Informationen über die Gesichtstextur umliegend vom jeweiligen Punkt aus. Mit mehreren dieser Jets, lässt sich ein Graph bilden [siehe \ref{fig:bunch_of_jets}].
+                Ein Jet bezeichnet eine geringe Menge an Grauwerten rund um ein definiertes Pixel. Diese beinhalten Informationen über die Gesichtstextur umliegend vom jeweiligen Punkt aus. Mit mehreren dieser Jets, lässt sich ein Graph bilden [siehe \ref{fig:bunch_of_jets} & vgl. \ref{book:DigitalGesichtserkennung}].
 
             \subsubsubsection{Graphs}
             \label{subsubsubsec:Graphs}
-                Wie gerade in [\ref{subsubsubsec:jets}] schon erwähnt ist ein Graph eine Ansammlung von mehreren Jets. Hierbei werden die einzelnen Jets miteinander auf eine bestimmte Art und Weise mit einander verbunden.
+                Wie gerade in [\ref{subsubsubsec:jets}] schon erwähnt ist ein Graph eine Ansammlung von mehreren Jets. Hierbei werden die einzelnen Jets miteinander auf eine bestimmte Art und Weise mit einander verbunden.\\
+                Ein Jet \textit{\textbf{J}} ist eine repräsentation einer lokalen Textur. Um ein Bild eines Objektes darzustellen wird eine Kombination aus mehreren Jets in einer definierten räumlichen Anordnung. Einerseits könnte man dafür Jets an allen Pixelpositionen des Objektes nutzen. Dies würde allerdings zu einer überflüssigen Datenmenge des Faktors 80 entsprechen. Andererseits kann man die benötigte Datenmenge stark reduzieren. In Abbildung \ref{fig:bunch_of_jets} kann man klar erkennen, dass die Datenmenge auf insgesamt 9 Punkte mit Jets reduziert werden konnte. Diese Datenmenge reicht allerdings völlig aus um einen Objekt- bzw. Gesichtsabgleicht zu vollziehen. Um nun zu Überprüfen ob das Objekt im Bild ein Gesicht ist oder nicht, werden 2 Graphen \textbf{$G^{I}$} und \textbf{$G^{B}$} miteinander verglichen. Hierbei bezeichnet \textbf{$G^{I}$} den Graphen des aktuellen Objektes und \textbf{$G^{B}$} das strukturelle Wissen von Gesichtern die in dem System gespeichert sind [vgl. \ref{book:DigitalGesichtserkennung} \& \ref{scholarpedia:ebgm}]. Das genaue Verfahren kann man in folgender Gleichung darstellen [siehe \ref{scholarpedia:ebgm}]:
+                $$S_{BG}(G^I,G^B) := \frac{1}{|V|}\sum_{i \in V} \max\limits_{m \in G}S_v(J_i^I, J_{i,m}^B) + \frac{\lambda}{|E|}\sum_{(i,j) \in E}S_e \left(\vec{\Delta}_{ij,m}^I\,, \vec{\Delta}_{ij,m}^B\right) \,.
+                

@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.11.2 (MiKTeX 2.9.7250 64-bit)  (format=lualatex 2020.1.23)  3 MAR 2020 01:16
+This is LuaTeX, Version 1.11.2 (MiKTeX 2.9.7250 64-bit)  (format=lualatex 2020.1.23)  3 MAR 2020 03:25
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -59,7 +59,7 @@ Lua module: luaotfload-tounicode 2019-11-10 3.11 luaotfload submodule / tounicod
 e
 Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 1.280 seconds
+luaotfload | main : initialization completed in 1.664 seconds
 (./resources/settings/settings.tex
 ("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls"
 Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
@@ -2258,22 +2258,81 @@ File: resources/images/img/Face recognition/Elastic Bunch Graph Matching - Bunch
 <use resources/images/img/Face recognition/Elastic Bunch Graph Matching - Bunch 
 of Jets.png>
 Package luatex.def Info: resources/images/img/Face recognition/Elastic Bunch Gra
-ph Matching - Bunch of Jets.png  used on input line 155.
+ph Matching - Bunch of Jets.png  used on input line 156.
 (luatex.def)             Requested size: 113.81102pt x 144.54248pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-[]\TU/Arial(0)/m/n/12 Ab-bil-dung 3: |An-
- []
+! Missing number, treated as zero.
+<to be read again> 
+Q
+l.157 ...ption{\\[Quelle \ref{image:Bunch_of_jets}]}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+Q
+l.157 ...ption{\\[Quelle \ref{image:Bunch_of_jets}]}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+Q
+l.157 ...ption{\\[Quelle \ref{image:Bunch_of_jets}]}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+Q
+l.157 ...ption{\\[Quelle \ref{image:Bunch_of_jets}]}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\TU/Arial(0)/m/n/12 samm-lun-gen von
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--158
+Underfull \hbox (badness 10000) in paragraph at lines 152--159
 []
  []
+
+! Misplaced alignment tab character &.
+l.160 ...aph bilden [siehe \ref{fig:bunch_of_jets} &
+                                                   vgl. \ref{book:DigitalGes...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.167 
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Display math should end with $$.
+<to be read again> 
+\WF@@par 
+l.167 
+    
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
 
 ) [9<./resources/images/img/Face recognition/Elastic Bunch Graph Matching - Bunc
 h of Jets.png>] (./chapter/my_chapters/3_Praxis.tex) [10]
@@ -2344,28 +2403,32 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 59025 strings out of 493863
+ 59027 strings out of 493863
  125171,1648299 words of node,token memory allocated
- 655 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 16 attribute, 77 glue_spec
-, 10 attribute_list, 2 write, 1 pdf_action nodes
-   avail lists: 1:2,2:2243,3:386,4:73,5:182,6:85,7:3863,8:31,9:382,10:27,11:420,
+ 661 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 18 attribute, 77 glue_spec
+, 11 attribute_list, 2 write, 1 pdf_action nodes
+   avail lists: 1:3,2:2240,3:387,4:73,5:182,6:85,7:3862,8:81,9:382,10:27,11:420,
 12:1
- 61779 multiletter control sequences out of 65536+200000
- 63 fonts using 23958471 bytes
+ 61781 multiletter control sequences out of 65536+200000
+ 64 fonts using 24485103 bytes
  67i,19n,103p,1932b,2144s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.e
-nc}{C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.en
-c}{C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit
-.enc}<C:/WINDOWS/Fonts/ariali.ttf><C:/WINDOWS/Fonts/arial.ttf><C:/WINDOWS/Fonts/
-arialbd.ttf><C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/lm/lmmi12.pfb><C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmmi8.pfb><C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/lm/lmr12.pfb><C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/lm/lmsy10.pfb>
-Output written on main.pdf (18 pages, 517872 bytes).
+{C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{
+C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.en
+c}{C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex
+.enc}<C:/WINDOWS/Fonts/arialbi.ttf>{C:/Users/kpage/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/WINDOWS/Fonts/ariali.ttf><C:/WINDOWS/F
+onts/arial.ttf><C:/WINDOWS/Fonts/arialbd.ttf><C:/Users/kpage/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/kpage/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/kpage/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/kpage/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/kpage/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/kpage/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/kpage/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
+Output written on main.pdf (18 pages, 550046 bytes).
 
-PDF statistics: 456 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 481 PDF objects out of 1000 (max. 8388607)
  76 named destinations out of 1000 (max. 131072)
  440 words of extra memory for PDF output out of 10000 (max. 100000000)
 
