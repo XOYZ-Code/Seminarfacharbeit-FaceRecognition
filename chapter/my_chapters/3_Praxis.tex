@@ -1,9 +1,20 @@
 \section{Praktische Anwendung von Gesichtserkennung}
 \label{sec:Praltische_Anwendung_Kuenslicher_Intelligenz}
 
-    \subsection{Apples \enquote{Face-ID} und Androids \enquote{Trusted Face}}
+    Nun sollte alles grundlegende zu der Theoretischen Gesichtserkennung erklärt worden sein. Daher wird in dem folgenden Kapitel auf die Praktische Anwendung von KI und \enquote{face recognition} eingegangen.
+
+    \subsection{Apples \enquote{Face ID}}
     \label{subsec:FaceID_TrustedFace}
+        Seit einigen Jahren unterstützen Android sowie Apple Smartphones Trusted-Face bzw. Face ID. Dies sind die offiziellen Namen für die Gesichtserkennungssoftware auf den jeweiligen Geräten.
+
+        \subsubsection{Apples Ansatz mit Face ID}
+            Wenn man sein IPhone entsperren möchte und Face ID eingerichtet hat, muss man meist nur einmal nach oben wischen und schon ist das Gerät entsperrt. Dies liegt an zum einen an den Prozessoren, welche von Jahr zu Jahr leistungsstärker werden, und an der Software hinter Face ID, welche so stark optimiert wurde, dass der Nutzer nahezu keine Verzögerung beim Entsperren per Face ID bemerkt.\\
+            Face ID funktioniert mit Hilfe einer TrueDepth-Kamera. Diese kann über 30.000 Punkte projizieren und analysieren um daraus eine Tiefenkarte zu erstellen [vgl. \ref{apple:face_id}]. Dies ist vergleichbar zu [\ref{subsubsec:Elastic_bunch_graph_Matching}] wobei hier keine Grauwerte und Jets zur analyse verwendet werden, sondern rohe Daten. Deshalb trifft die Definition von einem 3D-Verfahren [vgl. \ref{subsubsec:3d_verfahren}] eher auf Face ID zu.\\
+            Es gibt mittlerweile aber auch Kritik an der erst so hochgelobten Technik. Es wird davon geredet, dass Face ID zu langsam wäre und Updates die Software verlangsamen [vgl. \ref{maclife:face_id_too_slow}]. Dies ist allerdings nicht bewiesen und einige Nutzer sagen das es langsamer ist als vorher und wieder andere sagen, dass sich nichts geändert hat [vgl. Kommentare in \ref{maclife:face_id_too_slow}]. Man muss bedenken, dass auch wenn Apple versucht Face ID in jeglicher Situation nutzbar zu machen hat die Software dennoch wie jede andere ihre schwächen. Einerseits wäre das Problem, dass man sein Apple Gerät mit dieser Methode nur im Portrait Modus entsperren kann. Außerdem soll es Probleme mit Ski-Brillen geben da diese zu viel vom Gesicht überdecken.
 
     \subsection{Die Massenüberwachung in China}
+        China hat sich in den letzten Jahren immer mehr auf KI spezialisiert. Doch China möchte nicht nur eine der größten Länder im Bereich face recognition werden, sondern möchte seine Bevölkerung auch unter eine komplette Kontrolle bringen [vgl. \ref{berlinerZeitung:totale_ueberwachung_in_china}].
 
-    \subsection{Gesichtserkennung mit Developement-Boards}
+        \subsubsection{Das Sozialpunktesystem}
+            Mittlerweile hat China ein System eingerichtet um jeden Bürger individuell zu bewerten. Man kann das Land mit einem Club in einem Spiel vergleichen. Verhält man sich ruhig bzw. hält sich an die Regeln hat man keine Konsequenzen zu fürchten. Engagiert man sich dazu auch noch für den Club, so kann es sein das man dafür belohnt wird. Verhält man sich hingegen negativ gegenüber seines Clubs kann man absteigen und verliert seine Rechte.\\
+            Es klingt zunächst extrem dargestellt, aber wie man in [\ref{welt:China_ki_weltmacht}] lesen kann wurden Jahr 2018 ca. 17.5 Millionen Flugtickets und 5.5 Millionen Bahntickets abgelehnt bzw. nicht ausgestellt worden sein. \enquote{Begründung: zu wenige Sozialkreditpunkte} [Zitat aus \ref{welt:China_ki_weltmacht}]. 
