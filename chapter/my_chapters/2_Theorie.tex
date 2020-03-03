@@ -150,6 +150,14 @@
             Beim EBGM werden Graphen auf ein Bild gelegt und Markante Punkte durch sogenannte Jets gekennzeichnet [siehe Abbildung \ref{fig:Datenpunkte_eines_EGBM-Algorithms}]. Diese Punkte sind in allen Gesichtern mit einer kleinen Tolleranz gleich. Die Punkte aller verarbeiteten Gesichter werden in einem sogenannten Bunch zusammengefasst.
 
             \subsubsubsection{Jets}
-                
+            \label{subsubsubsec:jets}
+                \begin{wrapfigure}[10]{r}{0.25\textwidth}
+                    \includegraphics[width=0.25\textwidth]{resources/images/img/Face recognition/Elastic Bunch Graph Matching - Bunch of Jets.png}
+                    \caption{Ansammlungen von Jets [Quelle \ref{image:Bunch_of_jets}]}
+                    \label{fig:bunch_of_jets}
+                \end{wrapfigure}
+                Ein Jet bezeichnet eine geringe Menge an Grauwerten rund um ein definiertes Pixel. Diese beinhalten Informationen über die Gesichtstextur umliegend vom jeweiligen Punkt aus. Mit mehreren dieser Jets, lässt sich ein Graph bilden [siehe \ref{fig:bunch_of_jets}].
 
-            
+            \subsubsubsection{Graphs}
+            \label{subsubsubsec:Graphs}
+                Wie gerade in [\ref{subsubsubsec:jets}] schon erwähnt ist ein Graph eine Ansammlung von mehreren Jets. Hierbei werden die einzelnen Jets miteinander auf eine bestimmte Art und Weise mit einander verbunden.

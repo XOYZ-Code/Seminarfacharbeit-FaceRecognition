@@ -18,6 +18,7 @@
 \contentsline {subsubsection}{\numberline {2.5.1}3D-Verfahren}{8}{subsubsection.2.5.1}%
 \contentsline {subsubsection}{\numberline {2.5.2}Elastic bunch Graph Matching}{8}{subsubsection.2.5.2}%
 \contentsline {paragraph}{\numberline {2.5.2.1}Jets}{9}{paragraph.2.5.2.1}%
+\contentsline {paragraph}{\numberline {2.5.2.2}Graphs}{9}{paragraph.2.5.2.2}%
 \contentsline {section}{\numberline {3}Praktische Anwendung von Gesichtserkennung}{10}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Apples \enquote {Face-ID} und Androids \enquote {Trusted Face}}{10}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Die Massen\"uberwachung in China}{10}{subsection.3.2}%
@@ -49,4 +50,5 @@
 \contentsline {subsection}{\numberline {5.10}Dynamic Link Machine}{14}{subsection.5.10}%
 \contentsline {subsection}{\numberline {5.11}Bilder}{14}{subsection.5.11}%
 \contentsline {subsubsection}{\numberline {5.11.1}Beispiel eines Neuronalen Netzes}{14}{subsubsection.5.11.1}%
-\contentsline {paragraph}{\numberline {5.11.1.1}Datenpunkte eines EGBM-Algorithmus}{14}{paragraph.5.11.1.1}%
+\contentsline {subsubsection}{\numberline {5.11.2}Datenpunkte eines EGBM-Algorithmus}{14}{subsubsection.5.11.2}%
+\contentsline {subsubsection}{\numberline {5.11.3}Bunch of Jets}{14}{subsubsection.5.11.3}%

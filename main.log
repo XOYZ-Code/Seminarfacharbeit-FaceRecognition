@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.11.2 (MiKTeX 2.9.7250 64-bit)  (format=lualatex 2020.1.23)  2 MAR 2020 23:08
+This is LuaTeX, Version 1.11.2 (MiKTeX 2.9.7250 64-bit)  (format=lualatex 2020.1.23)  3 MAR 2020 01:16
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -59,7 +59,7 @@ Lua module: luaotfload-tounicode 2019-11-10 3.11 luaotfload submodule / tounicod
 e
 Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 1.355 seconds
+luaotfload | main : initialization completed in 1.280 seconds
 (./resources/settings/settings.tex
 ("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls"
 Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
@@ -2044,7 +2044,7 @@ Overfull \hbox (8.53589pt too wide) in paragraph at lines 99--99
 [] 
  []
 
-<resources/images/deckblatt.jpg, id=210, 1243.64626pt x 1760.5775pt>
+<resources/images/deckblatt.jpg, id=218, 1243.64626pt x 1760.5775pt>
 File: resources/images/deckblatt.jpg Graphic file (type jpg)
 <use resources/images/deckblatt.jpg>
 Package luatex.def Info: resources/images/deckblatt.jpg  used on input line 99.
@@ -2157,7 +2157,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ! Missing $ inserted.
 <inserted text> 
 $
-l.45 ...7.2}Gabor_wavelets}{14}{subsubsection.5.7.2}
+l.46 ...7.2}Gabor_wavelets}{14}{subsubsection.5.7.2}
                                                   %
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2165,7 +2165,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...ocdestname }{\numberline {5.7.2}Gabor_wavelets}
                                                   \hyper@linkend 
-l.45 ...7.2}Gabor_wavelets}{14}{subsubsection.5.7.2}
+l.46 ...7.2}Gabor_wavelets}{14}{subsubsection.5.7.2}
                                                   %
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2176,7 +2176,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
 $
-l.45 ...7.2}Gabor_wavelets}{14}{subsubsection.5.7.2}
+l.46 ...7.2}Gabor_wavelets}{14}{subsubsection.5.7.2}
                                                   %
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2187,7 +2187,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
 }
-l.45 ...7.2}Gabor_wavelets}{14}{subsubsection.5.7.2}
+l.46 ...7.2}Gabor_wavelets}{14}{subsubsection.5.7.2}
                                                   %
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2223,7 +2223,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
-<resources/images/img/Neural Networks/neural-network-example.png, id=312, 1496.5
+<resources/images/img/Neural Networks/neural-network-example.png, id=322, 1496.5
 9125pt x 722.7pt>
 File: resources/images/img/Neural Networks/neural-network-example.png Graphic fi
 le (type png)
@@ -2241,7 +2241,7 @@ Missing character: There is no ; (U+003B) in font nullfont!
 ] [5<./resources/images/img/Neural Networks/neural-network-example.png>]
 [6] [7]
 <resources/images/img/Face recognition/Elastic Bunch Graph Matching - Figures.pn
-g, id=358, 378.66469pt x 199.49532pt>
+g, id=368, 378.66469pt x 199.49532pt>
 File: resources/images/img/Face recognition/Elastic Bunch Graph Matching - Figur
 es.png Graphic file (type png)
 <use resources/images/img/Face recognition/Elastic Bunch Graph Matching - Figure
@@ -2251,11 +2251,32 @@ ph Matching - Figures.png  used on input line 144.
 (luatex.def)             Requested size: 302.93216pt x 159.59645pt.
  [8<./resources/images/img/Face recognition/Elastic Bunch Graph Matching - Figur
 es.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+<resources/images/img/Face recognition/Elastic Bunch Graph Matching - Bunch of J
+ets.png, id=383, 200.75pt x 254.9525pt>
+File: resources/images/img/Face recognition/Elastic Bunch Graph Matching - Bunch
+ of Jets.png Graphic file (type png)
+<use resources/images/img/Face recognition/Elastic Bunch Graph Matching - Bunch 
+of Jets.png>
+Package luatex.def Info: resources/images/img/Face recognition/Elastic Bunch Gra
+ph Matching - Bunch of Jets.png  used on input line 155.
+(luatex.def)             Requested size: 113.81102pt x 144.54248pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+[]\TU/Arial(0)/m/n/12 Ab-bil-dung 3: |An-
  []
 
-) [9] (./chapter/my_chapters/3_Praxis.tex) [10]
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+\TU/Arial(0)/m/n/12 samm-lun-gen von
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--158
+[]
+ []
+
+) [9<./resources/images/img/Face recognition/Elastic Bunch Graph Matching - Bunc
+h of Jets.png>] (./chapter/my_chapters/3_Praxis.tex) [10]
 (./chapter/my_chapters/4_Ethik.tex) [11] (./chapter/my_chapters/Anhang.tex
 Underfull \hbox (badness 10000) in paragraph at lines 48--53
 
@@ -2319,18 +2340,18 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4DC24DF922E52CC4543A32ECE8A786C0;11349.
+(rerunfilecheck)             Checksum: F0FE7AD886820D172841D56C44E6DE3F;11590.
 )
 
 Here is how much of LuaTeX's memory you used:
- 59004 strings out of 493863
+ 59025 strings out of 493863
  125171,1648299 words of node,token memory allocated
  655 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 16 attribute, 77 glue_spec
 , 10 attribute_list, 2 write, 1 pdf_action nodes
-   avail lists: 1:2,2:2243,3:386,4:70,5:177,6:83,7:3862,8:31,9:382,10:27,11:420,
+   avail lists: 1:2,2:2243,3:386,4:73,5:182,6:85,7:3863,8:31,9:382,10:27,11:420,
 12:1
- 61767 multiletter control sequences out of 65536+200000
+ 61779 multiletter control sequences out of 65536+200000
  63 fonts using 23958471 bytes
  67i,19n,103p,1932b,2144s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.e
@@ -2342,9 +2363,9 @@ arialbd.ttf><C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 lic/lm/lmmi8.pfb><C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
 ublic/lm/lmr12.pfb><C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /public/lm/lmsy10.pfb>
-Output written on main.pdf (18 pages, 472944 bytes).
+Output written on main.pdf (18 pages, 517872 bytes).
 
-PDF statistics: 439 PDF objects out of 1000 (max. 8388607)
- 73 named destinations out of 1000 (max. 131072)
- 424 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 456 PDF objects out of 1000 (max. 8388607)
+ 76 named destinations out of 1000 (max. 131072)
+ 440 words of extra memory for PDF output out of 10000 (max. 100000000)
 
