@@ -1,0 +1,70 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
+\contentsline {section}{\numberline {2}Theoretischer Hintergrund}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Definition K\"unstliche Intelligenz}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Wie funktioniert eine K\"unstliche Intelligenz?}{2}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Deep Learning}{2}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Machine Learning}{3}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Aufbau eines Neuronalen Netzes}{4}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Trainieren eines Neuronalen Netzes}{5}{subsubsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.3}Erste Konzepte K\"unstlicher Intelligenz}{5}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Logic Theorist - Was konnte es?}{6}{subsubsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.4}Das System der Gesichtsentdeckung}{6}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Gesichtsentdeckung durch Bildreduzierung um Hintergrundinformationen}{6}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Gesichtsentdeckung durch Farbinformationen}{6}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Gesichtsentdeckung durch Bewegungsinformationen}{7}{subsubsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.4}Gesichtsentdeckung durch Geometrie}{7}{subsubsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.5}Das System der Gesichtserkennung}{7}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}3D-Verfahren}{8}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Elastic bunch Graph Matching}{8}{subsubsection.2.5.2}%
+\contentsline {paragraph}{\numberline {2.5.2.1}Jets}{9}{paragraph.2.5.2.1}%
+\contentsline {paragraph}{\numberline {2.5.2.2}Graphs}{9}{paragraph.2.5.2.2}%
+\contentsline {section}{\numberline {3}Praktische Anwendung von Gesichtserkennung}{10}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Apples \enquote {Face ID}}{10}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Apples Ansatz mit Face ID}{10}{subsubsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.2}Die Massen\"uberwachung in China}{10}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Das Sozialpunktesystem}{11}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Vor- und Nachteile dieser Art der \"Uberwachung}{11}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Gesichtserkennung mit Open-Source-Projekten}{11}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Hinterfragen der Ethischen Korrektheit}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Hinterfragen des Systems einer K\"unstlichen Intelligenz}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Hinterfragen des Sozialpunktesystems in China}{13}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Fazit}{14}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Literatur Verzeichnis}{15}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Logic Theorist}{15}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Memorandum}{15}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Wikipedia Artikel}{15}{subsubsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.2}Allgemeine Quellen zum Thema KI}{15}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Wikipedia Artikel zum Thema K\"unstliche Intelligenz}{15}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Gesichtserkennung}{15}{subsubsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.3}Aufbau und Funktionsweise Neuronaler Netze}{15}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}JAAI - Aufbau von Neuronalen Netzen}{15}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.2}Wie lernen Neuronale Netze?}{15}{subsubsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.4}B\"ucher}{16}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Buch: Digitale Gesichtserkennung}{16}{subsubsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.2}Buch: K\"unstliche Intelligenz - Wann \"ubernehmen die Maschinen?}{16}{subsubsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.3}Buch: Prinzipien der Mathematik}{16}{subsubsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.5}Buch: Religionsbuch Oberstufe}{16}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Informationen \"uber das menschliche Gehirn}{16}{subsection.5.6}%
+\contentsline {subsubsection}{\numberline {5.6.1}dasgehirn.info - Zellen: spezialisierte Arbeiter des Gehirns}{16}{subsubsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.7}Viola Jones Algorithmus}{16}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}Facial Recognition}{17}{subsection.5.8}%
+\contentsline {subsubsection}{\numberline {5.8.1}Elastic Bunch Graph Matching}{17}{subsubsection.5.8.1}%
+\contentsline {subsubsection}{\numberline {5.8.2}Gabor wavelets}{17}{subsubsection.5.8.2}%
+\contentsline {subsection}{\numberline {5.9}\enquote {Machine Learning} und \enquote {Deep Learning}}{17}{subsection.5.9}%
+\contentsline {subsection}{\numberline {5.10}Netflix Research}{17}{subsection.5.10}%
+\contentsline {subsubsection}{\numberline {5.10.1}Machine Learning - Learn hoe to entertain the World}{17}{subsubsection.5.10.1}%
+\contentsline {subsection}{\numberline {5.11}Dynamic Link Machine}{17}{subsection.5.11}%
+\contentsline {subsection}{\numberline {5.12}Apples Support - Fortschritt von Face ID}{17}{subsection.5.12}%
+\contentsline {subsection}{\numberline {5.13}Face ID - Face ID zu langsam?}{17}{subsection.5.13}%
+\contentsline {subsubsection}{\numberline {5.13.1}Vergleich von Touch ID und Face ID}{18}{subsubsection.5.13.1}%
+\contentsline {subsection}{\numberline {5.14}Massen\"uberwachungsstaat China}{18}{subsection.5.14}%
+\contentsline {subsubsection}{\numberline {5.14.1}Welt.de: Ein Sputnik-Moment macht China zur KI-Weltmacht}{18}{subsubsection.5.14.1}%
+\contentsline {subsubsection}{\numberline {5.14.2}Berliner Zeitung - Totale \"Uberwachung in China}{18}{subsubsection.5.14.2}%
+\contentsline {subsubsection}{\numberline {5.14.3}Handelsblatt: Chinesen sch\"atzen die \"Uberwachung}{18}{subsubsection.5.14.3}%
+\contentsline {subsection}{\numberline {5.15}Face Recognition mit Python in under 25 Lines of code}{18}{subsection.5.15}%
+\contentsline {subsection}{\numberline {5.16}Bilder}{18}{subsection.5.16}%
+\contentsline {subsubsection}{\numberline {5.16.1}Beispiel eines Neuronalen Netzes}{18}{subsubsection.5.16.1}%
+\contentsline {subsubsection}{\numberline {5.16.2}Datenpunkte eines EGBM-Algorithmus}{18}{subsubsection.5.16.2}%
+\contentsline {subsubsection}{\numberline {5.16.3}Bunch of Jets}{19}{subsubsection.5.16.3}%
+\contentsline {subsection}{\numberline {5.17}Gewissensfrage}{19}{subsection.5.17}%

@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.11.2 (MiKTeX 2.9.7250 64-bit)  (format=lualatex 2020.1.23)  3 MAR 2020 07:08
+This is LuaTeX, Version 1.11.2 (MiKTeX 2.9.7250 64-bit)  (format=lualatex 2020.1.23)  3 MAR 2020 07:16
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -59,7 +59,7 @@ Lua module: luaotfload-tounicode 2019-11-10 3.11 luaotfload submodule / tounicod
 e
 Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 1.826 seconds
+luaotfload | main : initialization completed in 1.829 seconds
 (./resources/settings/settings.tex
 ("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls"
 Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
@@ -1966,24 +1966,657 @@ LaTeX Info: Redefining \nameref on input line 92.
 
 \openout4 = main.out
 
-! I can't write on file `main.pdf'.
-Please type another file name for output
-! Emergency stop.
-\PDF@SetupDoc ...tartview \@empty \else openaction
-                                                   goto page\@pdfstartpage {...
-l.92 \begin{document}
-                   
-*** (job aborted, file error in nonstop mode)
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
+ck labels; missing features). Consider writing \pgfplotsset{compat=1.16} into yo
+ur preamble.
+ on input line 92.
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(108.12054pt, 418.25545pt, 71.13188pt)
+* v-part:(T,H,B)=(130.88284pt, 643.03212pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25545pt
+* \textheight=643.03212pt
+* \oddsidemargin=35.85056pt
+* \evensidemargin=35.85056pt
+* \topmargin=15.61285pt
+* \headheight=18.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
+Overfull \hbox (8.53589pt too wide) in paragraph at lines 99--99
+[] 
+ []
+
+
+Overfull \hbox (8.53589pt too wide) in paragraph at lines 99--99
+[] 
+ []
+
+
+Overfull \hbox (8.53589pt too wide) in paragraph at lines 99--99
+[] 
+ []
+
+
+Overfull \hbox (8.53589pt too wide) in paragraph at lines 99--99
+[] 
+ []
+
+
+Overfull \hbox (8.53589pt too wide) in paragraph at lines 99--99
+[] 
+ []
+
+
+Overfull \hbox (8.53589pt too wide) in paragraph at lines 99--99
+[] 
+ []
+
+
+Overfull \hbox (8.53589pt too wide) in paragraph at lines 99--99
+[] 
+ []
+
+<resources/images/deckblatt.jpg, id=282, 1243.64626pt x 1760.5775pt>
+File: resources/images/deckblatt.jpg Graphic file (type jpg)
+<use resources/images/deckblatt.jpg>
+Package luatex.def Info: resources/images/deckblatt.jpg  used on input line 99.
+(luatex.def)             Requested size: 596.92445pt x 845.04074pt.
+[1
+
+
+
+
+
+
+{C:/Users/kpage/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}<./resources/i
+mages/deckblatt.jpg>]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(108.12054pt, 418.25545pt, 71.13188pt)
+* v-part:(T,H,B)=(227.62204pt, 546.29292pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25545pt
+* \textheight=546.29292pt
+* \oddsidemargin=35.85056pt
+* \evensidemargin=35.85056pt
+* \topmargin=112.35205pt
+* \headheight=18.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Overfull \hbox (8.53589pt too wide) in paragraph at lines 103--103
+[] 
+ []
+
+
+Overfull \hbox (8.53589pt too wide) in paragraph at lines 103--103
+[] 
+ []
+
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+File: resources/images/deckblatt.jpg Graphic file (type jpg)
+<use resources/images/deckblatt.jpg>
+Package luatex.def Info: resources/images/deckblatt.jpg  used on input line 103.
+
+(luatex.def)             Requested size: 596.92445pt x 845.04074pt.
+[1
+
+
+] (./main.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4.
+
+
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/latex/lm/ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/latex/microtype/mt-Latin
+ModernRoman.cfg"
+File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mode
+rn Roman (RS)
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmr' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4.
+
+
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/latex/lm/omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 4
+.
+
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/latex/lm/omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 4
+.
+
+("C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/tex/latex/lm/omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 4.
+
+[1
+
+]
+LaTeX Font Info:    Font shape `TU/Arial(0)/m/sl' in size <12> not available
+(Font)              Font shape `TU/Arial(0)/m/it' tried instead on input line 67
+.
+ [2])
+\tf@toc=\write5
+
+\openout5 = main.toc
+ [3] (./chapter/my_chapters/1_Einleitung.tex) [1]
+(./chapter/my_chapters/2_Theorie.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+
+ []
+
+[2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+<resources/images/img/Neural Networks/neural-network-example.png, id=405, 1496.5
+9125pt x 722.7pt>
+File: resources/images/img/Neural Networks/neural-network-example.png Graphic fi
+le (type png)
+<use resources/images/img/Neural Networks/neural-network-example.png>
+Package luatex.def Info: resources/images/img/Neural Networks/neural-network-exa
+mple.png  used on input line 81.
+(luatex.def)             Requested size: 1197.27466pt x 578.16078pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+[4
+Missing character: There is no ; (U+003B) in font nullfont!
+] [5<./resources/images/img/Neural Networks/neural-network-example.png>]
+[6] [7]
+<resources/images/img/Face recognition/Elastic Bunch Graph Matching - Figures.pn
+g, id=451, 378.66469pt x 199.49532pt>
+File: resources/images/img/Face recognition/Elastic Bunch Graph Matching - Figur
+es.png Graphic file (type png)
+<use resources/images/img/Face recognition/Elastic Bunch Graph Matching - Figure
+s.png>
+Package luatex.def Info: resources/images/img/Face recognition/Elastic Bunch Gra
+ph Matching - Figures.png  used on input line 144.
+(luatex.def)             Requested size: 302.93216pt x 159.59645pt.
+ [8<./resources/images/img/Face recognition/Elastic Bunch Graph Matching - Figur
+es.png>]
+<resources/images/img/Face recognition/Elastic Bunch Graph Matching - Bunch of J
+ets.png, id=466, 200.75pt x 254.9525pt>
+File: resources/images/img/Face recognition/Elastic Bunch Graph Matching - Bunch
+ of Jets.png Graphic file (type png)
+<use resources/images/img/Face recognition/Elastic Bunch Graph Matching - Bunch 
+of Jets.png>
+Package luatex.def Info: resources/images/img/Face recognition/Elastic Bunch Gra
+ph Matching - Bunch of Jets.png  used on input line 156.
+(luatex.def)             Requested size: 113.81102pt x 144.54248pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+Q
+l.157 ...ption{\\[Quelle \ref{image:Bunch_of_jets}]}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+Q
+l.157 ...ption{\\[Quelle \ref{image:Bunch_of_jets}]}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+Q
+l.157 ...ption{\\[Quelle \ref{image:Bunch_of_jets}]}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+Q
+l.157 ...ption{\\[Quelle \ref{image:Bunch_of_jets}]}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--159
+[]
+ []
+
+! Misplaced alignment tab character &.
+l.160 ...aph bilden [siehe \ref{fig:bunch_of_jets} &
+                                                   vgl. \ref{book:DigitalGes...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.167 
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Display math should end with $$.
+<to be read again> 
+\WF@@par 
+l.167 
+    
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+) [9<./resources/images/img/Face recognition/Elastic Bunch Graph Matching - Bunc
+h of Jets.png>] (./chapter/my_chapters/3_Praxis.tex [10]
+! You can't use `macro parameter character #' in horizontal mode.
+l.28 ... gibt in vielerlei Sprachen, z.B. Python, C#
+                                                  , C++ oder Java, für die ...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn''t ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+) [11] (./chapter/my_chapters/4_Ethik.tex
+! Misplaced alignment tab character &.
+l.2 ...erbei wird sich vorallem auf die Seiten 312 &
+                                                   313 der Quelle [\ref{book...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+<resources/images/img/Gewissensfrage.jpg, id=517, 150.5625pt x 150.5625pt>
+File: resources/images/img/Gewissensfrage.jpg Graphic file (type jpg)
+<use resources/images/img/Gewissensfrage.jpg>
+Package luatex.def Info: resources/images/img/Gewissensfrage.jpg  used on input 
+line 16.
+(luatex.def)             Requested size: 113.81102pt x 113.81526pt.
+! Missing number, treated as zero.
+<to be read again> 
+Q
+l.17 ...ption{\\[Quelle \ref{image:Gewissensfrage}]}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+Q
+l.17 ...ption{\\[Quelle \ref{image:Gewissensfrage}]}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+Q
+l.17 ...ption{\\[Quelle \ref{image:Gewissensfrage}]}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+Q
+l.17 ...ption{\\[Quelle \ref{image:Gewissensfrage}]}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+[][]\TU/Arial(0)/m/n/12 Als gu-tes Bei-spiel dient ei-ne der Stan-dard Ge-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+\TU/Arial(0)/m/n/12 wis-sens-fra-gen die nor-ma-ler-wei-se Men-schen ge-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+\TU/Arial(0)/m/n/12 stellt wird. Ein Zug fährt auf ein Gleis zu auf
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+\TU/Arial(0)/m/n/12 dem 4 Men-schen lie-gen. Es gibt kei-ne Mög-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+\TU/Arial(0)/m/n/12 lich-keit ihn Auf-zu-hal-ten. Die ein-zi-ge Mög-lich-keit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+\TU/Arial(0)/m/n/12 die-se Men-schen noch zu ret-ten ist die Wei-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+\TU/Arial(0)/m/n/12 che um-zu-stel-len. Al-ler-dings liegt auf dem an-de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+\TU/Arial(0)/m/n/12 ren Gleis auch ei-ne Per-son. Die Fra-ge: „  Wür-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+\TU/Arial(0)/m/n/12 dest du dir Wei-che stel-len?“ [sie-he Ab-bil-dung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+[13<./resources/images/img/Gewissensfrage.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+) [14] (./chapter/my_chapters/Anhang.tex
+Underfull \hbox (badness 10000) in paragraph at lines 48--53
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 69--72
+
+ []
+
+
+Overfull \hbox (23.69391pt too wide) in paragraph at lines 77--79
+\TU/Arial(0)/m/n/12 URL: htt-ps://www.das-ge-hirn.info/grundlagen/kommunikation
+-der-zellen/zellen-spezialisierte-
+ []
+
+
+Overfull \hbox (22.94783pt too wide) in paragraph at lines 82--84
+\TU/Arial(0)/m/n/12 URL: htt-ps://pdfs.se-man-ti-c-scho-l-ar.or-g/40b1/0e330a55
+11a6a45f42c8b86da222504c717f.pdf 
+ []
+
+[16]
+! Missing $ inserted.
+<inserted text> 
+$
+l.93 ...olarpedia.org/article/Elastic\_Bunch\_Graph_
+                                                  Matching
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.94 
+   
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (9.15134pt too wide) in paragraph at lines 124--126
+\TU/Arial(0)/m/n/12 URL: htt-ps://www.ma-cli-fe.de/news/entsperrt-face-id-iphon
+e-schnell-genug-oder-langsam-
+ []
+
+
+Overfull \hbox (11.14514pt too wide) in paragraph at lines 129--131
+\TU/Arial(0)/m/n/12 URL: htt-ps://www.click-re-pair.de/ratgeber/ratgeber-iphone
+/ratgeber-iphone-tipps/vergleich-
+ []
+
+[17]
+Overfull \hbox (7.81718pt too wide) in paragraph at lines 135--137
+\TU/Arial(0)/m/n/12 URL: htt-ps://www.welt.de/-kul-tur/ar-ti-cle191734655/Wie-C
+hina-mit-kuenstlicher-Intelligenz-
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 145--147
+\TU/Arial(0)/m/n/12 URL: htt-ps://www.han-dels-blatt.com/politik/international/
+totale-ueberwachung-darum-
+ []
+
+
+Overfull \hbox (14.5807pt too wide) in paragraph at lines 145--147
+\TU/Arial(0)/m/n/12 befuerworten-viele-chinesen-das-sozialpunktesystem/22834722
+.html?ti-cket=ST-1728959-
+ []
+
+[18]
+! Misplaced alignment tab character &.
+l.173 		URL: https://www.google.de/url?sa=i&
+                                          url=https\%3A\%2F\%2Fwww.comune.ci...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.173 ...-balsamo.mi.it\%2Fspip.php\%3Farticle23706&
+                                                  psig=AOvVaw0u\_fu8ynT2Fsqb...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.173 ...le23706&psig=AOvVaw0u\_fu8ynT2FsqbaZykBKeM&
+                                                  ust=1583299071897000&sourc...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.173 ...\_fu8ynT2FsqbaZykBKeM&ust=1583299071897000&
+                                                  source=images&cd=vfe&ved=0...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.173 ...ZykBKeM&ust=1583299071897000&source=images&
+                                                  cd=vfe&ved=0CAIQjRxqFwoTCM...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.173 ...&ust=1583299071897000&source=images&cd=vfe&
+                                                  ved=0CAIQjRxqFwoTCMCMzOnG\...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 172--128
+\TU/Arial(0)/m/n/12 URL: htt-ps://www.goog-le.de/url?sa=iurl=htt-ps%3A%2F%2Fwww
+.co-mu-ne.cinisello-
+ []
+
+
+Overfull \hbox (199.93343pt too wide) in paragraph at lines 172--128
+\TU/Arial(0)/m/n/12 balsamo.mi.it%2Fs-pip.php%3Far-ti-cle23706psig=AOv-Vaw0u_fu
+8ynT2Fsq-ba-ZykBKeMust=1583299071897000source=image-
+ []
+
+No file main.bbl.
+[19]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
+ (./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 6E0E54933E84CC2072F00A916FB1F137;15570.
+)
 
 Here is how much of LuaTeX's memory you used:
- 58383 strings out of 493863
- 125171,1648299 words of node,token memory allocated 681 words of node memory still in use:
-   6 hlist, 1 vlist, 2 rule, 1 dir, 3 glue, 4 kern, 1 glyph, 17 attribute, 76 gl
-ue_spec, 16 attribute_list, 2 if_stack, 9 write, 1 pdf_colorstack nodes
-   avail lists: 1:2,2:18,3:1,4:1,5:6,7:2,12:1
- 61363 multiletter control sequences out of 65536+200000
- 39 fonts using 13164087 bytes
- 67i,1n,103p,1019b,2144s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 59088 strings out of 493863
+ 125171,1648299 words of node,token memory allocated
+ 661 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 18 attribute, 77 glue_spec
+, 11 attribute_list, 2 write, 1 pdf_action nodes
+   avail lists: 1:3,2:2240,3:387,4:92,5:229,6:108,7:3865,8:81,9:431,10:46,11:420
+,12:1
+ 61813 multiletter control sequences out of 65536+200000
+ 64 fonts using 24485103 bytes
+ 67i,20n,103p,1938b,2144s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{
+C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.en
+c}{C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex
+.enc}{C:/Users/kpage/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mat
+hit.enc}<C:/WINDOWS/Fonts/arialbi.ttf><C:/WINDOWS/Fonts/ariali.ttf><C:/WINDOWS/F
+onts/arial.ttf><C:/WINDOWS/Fonts/arialbd.ttf><C:/Users/kpage/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/kpage/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/kpage/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/kpage/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/kpage/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/kpage/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/kpage/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
+Output written on main.pdf (24 pages, 641189 bytes).
+
+PDF statistics: 616 PDF objects out of 1000 (max. 8388607)
+ 99 named destinations out of 1000 (max. 131072)
+ 568 words of extra memory for PDF output out of 10000 (max. 100000000)
+
